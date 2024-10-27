@@ -1,23 +1,14 @@
 import { useEffect, useState } from 'react';
 
 import Logo1 from '../../assets/logo/shortletlogo.png';
-// import Logo2 from '../../assets/logo/shortlet-logo-dark.png';
 
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { motion, AnimatePresence, useCycle } from 'framer-motion';
 import { menuItems } from '../constants';
 
 const Header = () => {
   const [navScroll, setNavScroll] = useState(false);
   const [modalOpen, setModalOpen] = useCycle(false, true);
-  const [active, setActive] = useState('');
-
-  const { pathname } = useLocation();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    setActive(pathname.substring(1));
-  }, [pathname]);
 
   const changeScroll = () => {
     if (window.scrollY >= 80) {
@@ -34,10 +25,6 @@ const Header = () => {
       window.removeEventListener('scroll', changeScroll);
     };
   }, []);
-
-  useEffect(() => {
-    setActive(pathname.substring(1));
-  }, [pathname]);
 
   const modalVariants = {
     hidden: {
@@ -109,9 +96,7 @@ const Header = () => {
               {menuItems.map((menu, i) => (
                 <li
                   key={i}
-                  className={`${
-                    active.includes(menu.url) && 'text-pry'
-                  }text-[#fff] font-medium tracking-wide text-lg capitalize cursor-pointer py-2 px-3 hover:text-pry transition duration-300 ease-in-out relative w-fit block after:block after:content-[''] after:absolute after:left-0 after:bottom-0 after:border-b-2 after:border-pry after:bg-pry after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left`}
+                  className={`text-[#fff] font-medium tracking-wide text-lg capitalize cursor-pointer py-2 px-3 hover:text-pry transition duration-300 ease-in-out relative w-fit block after:block after:content-[''] after:absolute after:left-0 after:bottom-0 after:border-b-2 after:border-pry after:bg-pry after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left`}
                 >
                   {menu.title}
                 </li>
@@ -188,9 +173,6 @@ const Header = () => {
                           key={i}
                           className="text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-center"
                           variants={linkItemVariants}
-                          onClick={() => {
-                            navigate(`/${navLink.url}`), setModalOpen();
-                          }}
                         >
                           {navLink.title}
                         </motion.li>

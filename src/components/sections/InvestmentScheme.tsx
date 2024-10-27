@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import AnimatedSection from '../shared/AnimateSection';
 
 const InvestmentScheme = () => {
@@ -32,7 +33,9 @@ const InvestmentScheme = () => {
                     beatae id expedita ut?
                   </p>
                   <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-lg self-center -mb-16">
-                    Read More
+                    <Link to="home-owner" smooth={true} duration={800}>
+                      Read More
+                    </Link>
                   </button>
                 </div>
               </AnimatedSection>
@@ -51,7 +54,9 @@ const InvestmentScheme = () => {
                     beatae id expedita ut?
                   </p>
                   <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-lg self-center -mb-16">
-                    Read More
+                    <Link to="agent" smooth={true} duration={800}>
+                      Read More
+                    </Link>
                   </button>
                 </div>
               </AnimatedSection>
@@ -70,7 +75,9 @@ const InvestmentScheme = () => {
                     beatae id expedita ut?
                   </p>
                   <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-lg self-center -mb-16">
-                    Read More
+                    <Link to="investor" spy={true} smooth={true} duration={800}>
+                      Read More
+                    </Link>
                   </button>
                 </div>
               </AnimatedSection>
