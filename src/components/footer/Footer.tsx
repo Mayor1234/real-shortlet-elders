@@ -1,4 +1,4 @@
-import footer from '/footer.jpg';
+import footer from '/shortleelders-logo.png';
 
 const Footer = () => {
   return (
