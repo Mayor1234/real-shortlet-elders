@@ -32,7 +32,7 @@ const InvestmentScheme = () => {
                     Facere magnam incidunt nemo itaque reprehenderit totam
                     beatae id expedita ut?
                   </p>
-                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-lg self-center -mb-16">
+                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl self-center -mb-16">
                     <Link to="home-owner" smooth={true} duration={800}>
                       Read More
                     </Link>
@@ -53,7 +53,7 @@ const InvestmentScheme = () => {
                     Facere magnam incidunt nemo itaque reprehenderit totam
                     beatae id expedita ut?
                   </p>
-                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-lg self-center -mb-16">
+                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl self-center -mb-16">
                     <Link to="agent" smooth={true} duration={800}>
                       Read More
                     </Link>
@@ -74,7 +74,7 @@ const InvestmentScheme = () => {
                     Facere magnam incidunt nemo itaque reprehenderit totam
                     beatae id expedita ut?
                   </p>
-                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-lg self-center -mb-16">
+                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl  self-center -mb-16">
                     <Link to="investor" spy={true} smooth={true} duration={800}>
                       Read More
                     </Link>

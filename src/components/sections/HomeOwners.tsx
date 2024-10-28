@@ -5,17 +5,18 @@ import invest1 from '/invest1.jpg';
 const HomeOwners = () => {
   return (
     <div className="bg-[#fff]">
-      <div className="container mx-auto py-16">
-        <div className="flex flex-col px-5 justify-between h-full lg:h-[500px] overflow-hidden lg:flex-row lg:px-0 lg:gap-10">
-          <div className="flex-1 pb-10 lg:pb-0">
+      <div className="max-w-5xl mx-auto py-16">
+        <div className="flex flex-col px-5 justify-between h-full lg:h-[500px] overflow-hidden lg:flex-row lg:px-0 lg:gap-20">
+          <div className="w-full lg:w-[60%] pb-10 lg:pb-0">
             <AnimatedSection direction={{ initial_x: -50, initial_y: 0 }}>
               <div>
                 <SectionsHeading>HOME OWNERS</SectionsHeading>
-                <p className="text-xl font-medium tracking-wide pb-3 uppercase">
-                  Earn with your home...
+                <p className="text-2xl font-medium leading-none pb-3 uppercase">
+                  Earn with your <br />
+                  home...
                 </p>
                 <div className="mb-8">
-                  <p>
+                  <p className="text-gray-600">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                     fuga, cum dolorem ipsam laboriosam quidem dolores hic nulla
                     dolorum expedita? Nobis minima pariatur eveniet earum nemo
@@ -44,7 +45,7 @@ const HomeOwners = () => {
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[350px] lg:h-[500px] rounded-md"
+                  className="w-full h-[350px] lg:h-[400px] rounded-sm"
                 />
               </figure>
             </AnimatedSection>

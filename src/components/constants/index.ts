@@ -4,16 +4,17 @@ export const menuItems = [
     title: 'home',
   },
   {
+    url: 'about',
+    title: 'about',
+  },
+  {
     url: 'investment',
-    title: 'investment',
+    title: 'investment options',
   },
+
   {
-    url: 'about_us',
-    title: 'about us',
-  },
-  {
-    url: 'contact_us',
-    title: 'contact us',
+    url: 'contact',
+    title: 'contact',
   },
 ];
 
