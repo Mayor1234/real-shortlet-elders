@@ -11,7 +11,7 @@ const HomeOwners = () => {
             <AnimatedSection direction={{ initial_x: -50, initial_y: 0 }}>
               <div>
                 <SectionsHeading>HOME OWNERS</SectionsHeading>
-                <p className="text-2xl font-medium leading-none pb-3 uppercase">
+                <p className="text-2xl font-medium leading-none pb-5 uppercase">
                   Earn with your <br />
                   home...
                 </p>

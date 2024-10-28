@@ -8,27 +8,30 @@ const Residency = () => {
           <div className="flex flex-col px-5 justify-between items-center h-full lg:h-[500px] overflow-hidden lg:flex-row lg:px-0 lg:gap-10">
             <div className="flex-1 pb-10 lg:pb-0">
               <AnimatedSection direction={{ initial_x: 0, initial_y: 90 }}>
-                <p className="text-2xl text-gray-700 leading-none tracking-wide pb-3">
-                  Residency <br />
-                  Occupancy Brief
-                </p>
-                <div className="mb-8">
-                  <p className="text-gray-600">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                    fuga, cum dolorem ipsam laboriosam quidem dolores hic nulla
-                    dolorum expedita? Nobis minima pariatur eveniet earum nemo
-                    quaerat facere aliquam blanditiis tempore rem rerum qui quas
-                    eligendi consequuntur delectus eaque repellat accusantium,
-                    laudantium modi ex. Ab, aliquam. Deserunt ab sit fugit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Blanditiis commodi magnam impedit pariatur assumenda
-                    excepturi porro esse libero perferendis sunt natus dicta
-                    suscipit ab culpa nostrum facilis, quia eveniet id.
+                <div className="flex flex-col w-full">
+                  <p className="text-2xl text-gray-700 leading-none tracking-wide pb-5">
+                    Residency <br />
+                    Occupancy Brief
                   </p>
+                  <div className="mb-8">
+                    <p className="text-gray-600">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Non fuga, cum dolorem ipsam laboriosam quidem dolores hic
+                      nulla dolorum expedita? Nobis minima pariatur eveniet
+                      earum nemo quaerat facere aliquam blanditiis tempore rem
+                      rerum qui quas eligendi consequuntur delectus eaque
+                      repellat accusantium, laudantium modi ex. Ab, aliquam.
+                      Deserunt ab sit fugit. Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Blanditiis commodi magnam
+                      impedit pariatur assumenda excepturi porro esse libero
+                      perferendis sunt natus dicta suscipit ab culpa nostrum
+                      facilis, quia eveniet id.
+                    </p>
+                  </div>
+                  <button className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry self-center rounded-3xl">
+                    Talk to our team
+                  </button>
                 </div>
-                <button className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl">
-                  Talk to our team
-                </button>
               </AnimatedSection>
             </div>
             <div className="flex-1">

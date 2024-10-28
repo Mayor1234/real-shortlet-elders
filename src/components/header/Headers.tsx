@@ -86,7 +86,7 @@ const Header = () => {
   return (
     <div
       className={`${
-        navScroll ? 'bg-[#29454e]/50 bg-blend-overlay' : 'bg-transparent'
+        navScroll ? 'bg-[#000000]/50 bg-blend-overlay' : 'bg-transparent'
       } w-full sticky top-0 h-20`}
     >
       <div className="container mx-auto px-5 lg:px-0">

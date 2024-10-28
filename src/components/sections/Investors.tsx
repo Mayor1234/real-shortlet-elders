@@ -10,7 +10,7 @@ const Investors = () => {
           <div className="w-full lg:w-[60%] pb-10 lg:pb-0">
             <AnimatedSection direction={{ initial_x: -50, initial_y: 0 }}>
               <SectionsHeading>INVESTORS</SectionsHeading>
-              <p className="text-2xl font-medium leading-none pb-3 uppercase">
+              <p className="text-2xl font-medium leading-none pb-5 uppercase">
                 Earn returns on your <br /> investment ....
               </p>
               <div className="mb-8">
