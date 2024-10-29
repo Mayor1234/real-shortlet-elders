@@ -3,6 +3,11 @@ import SectionsHeading from '../shared/SectionsHeading';
 import invest2 from '/invest2.jpeg';
 
 const Agents = () => {
+  const handleRedirect = () => {
+    const formUrl = 'https://tally.so/r/3EbLRo';
+    window.open(formUrl);
+  };
+
   return (
     <div className="bg-[#fff] my-2">
       <div className="max-w-5xl mx-auto py-16">
@@ -43,7 +48,10 @@ const Agents = () => {
                     suscipit ab culpa nostrum facilis, quia eveniet id.
                   </p>
                 </div>
-                <button className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry self-end rounded-3xl">
+                <button
+                  className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry self-end rounded-3xl"
+                  onClick={handleRedirect}
+                >
                   Register your referal
                 </button>
               </div>

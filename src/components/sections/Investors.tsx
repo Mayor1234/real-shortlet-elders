@@ -3,6 +3,11 @@ import SectionsHeading from '../shared/SectionsHeading';
 import shortletreturn from '/shortletreturn.jpg';
 
 const Investors = () => {
+  const handleRedirect = () => {
+    const formUrl = 'https://tally.so/r/w8pGXY';
+    window.open(formUrl);
+  };
+
   return (
     <div className="bg-[#fff] my-2">
       <div className="max-w-5xl mx-auto py-16">
@@ -29,7 +34,10 @@ const Investors = () => {
                   culpa nostrum facilis, quia eveniet id.
                 </p>
               </div>
-              <button className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl">
+              <button
+                className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                onClick={handleRedirect}
+              >
                 Get Started
               </button>
             </AnimatedSection>

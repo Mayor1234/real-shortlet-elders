@@ -1,9 +1,3 @@
-// import HeroBanner from '../components/hero-banner/HeroBanner';
-// import Amenities from '../components/sections/Amenities';
-// import EarnReturns from '../components/sections/EarnReturns';
-// import Faq from '../components/sections/Faq';
-// import Investment from '../components/sections/Investment';
-
 import Footer from '../components/footer/Footer';
 import HeroBanner from '../components/hero-banner/HeroBanner';
 import Agents from '../components/sections/Agents';
@@ -27,9 +21,7 @@ const Home = () => {
       <Element name="investor">
         <Investors />
       </Element>
-
       <Residency />
-
       <Footer />
     </div>
   );

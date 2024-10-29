@@ -3,6 +3,11 @@ import SectionsHeading from '../shared/SectionsHeading';
 import invest1 from '/invest1.jpg';
 
 const HomeOwners = () => {
+  const handleRedirect = () => {
+    const formUrl = 'https://tally.so/r/wzQZQE';
+    window.open(formUrl);
+  };
+
   return (
     <div className="bg-[#fff]">
       <div className="max-w-5xl mx-auto py-16">
@@ -31,7 +36,10 @@ const HomeOwners = () => {
                     suscipit ab culpa nostrum facilis, quia eveniet id.
                   </p>
                 </div>
-                <button className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl">
+                <button
+                  className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                  onClick={handleRedirect}
+                >
                   Register your home
                 </button>
               </div>
