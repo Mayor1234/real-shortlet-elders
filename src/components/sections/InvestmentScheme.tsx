@@ -3,7 +3,7 @@ import AnimatedSection from '../shared/AnimateSection';
 
 const InvestmentScheme = () => {
   return (
-    <div className="relative top-0 z-10 bg-[url('/Investment.jpg')] h-[1500px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-800 mb-2">
+    <div className="relative top-0 z-10 bg-[url('/Investment2.jpg')] h-[1500px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-800 mb-2">
       <div className="container mx-auto">
         <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full gap-10 justify-center h-full lg:px-0">
           <div className="container mx-auto">
@@ -32,11 +32,19 @@ const InvestmentScheme = () => {
                     Facere magnam incidunt nemo itaque reprehenderit totam
                     beatae id expedita ut?
                   </p>
-                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl self-center -mb-16">
-                    <Link to="home-owner" smooth={true} duration={800}>
+                  <Link
+                    to="home-owner"
+                    smooth={true}
+                    duration={800}
+                    className="self-center -mb-16"
+                  >
+                    <button
+                      type="button"
+                      className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                    >
                       Read More
-                    </Link>
-                  </button>
+                    </button>
+                  </Link>
                 </div>
               </AnimatedSection>
               <AnimatedSection direction={{ initial_x: 0, initial_y: 90 }}>
@@ -53,11 +61,19 @@ const InvestmentScheme = () => {
                     Facere magnam incidunt nemo itaque reprehenderit totam
                     beatae id expedita ut?
                   </p>
-                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl self-center -mb-16">
-                    <Link to="agent" smooth={true} duration={800}>
+                  <Link
+                    to="agent"
+                    smooth={true}
+                    duration={800}
+                    className="self-center -mb-16"
+                  >
+                    <button
+                      type="button"
+                      className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                    >
                       Read More
-                    </Link>
-                  </button>
+                    </button>
+                  </Link>
                 </div>
               </AnimatedSection>
               <AnimatedSection direction={{ initial_x: 90, initial_y: 0 }}>
@@ -74,11 +90,20 @@ const InvestmentScheme = () => {
                     Facere magnam incidunt nemo itaque reprehenderit totam
                     beatae id expedita ut?
                   </p>
-                  <button className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl  self-center -mb-16">
-                    <Link to="investor" spy={true} smooth={true} duration={800}>
+                  <Link
+                    to="investor"
+                    spy={true}
+                    smooth={true}
+                    duration={800}
+                    className="self-center -mb-16"
+                  >
+                    <button
+                      type="button"
+                      className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl  "
+                    >
                       Read More
-                    </Link>
-                  </button>
+                    </button>
+                  </Link>
                 </div>
               </AnimatedSection>
             </div>

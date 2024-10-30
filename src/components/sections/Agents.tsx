@@ -5,7 +5,7 @@ import invest2 from '/invest2.jpeg';
 const Agents = () => {
   const handleRedirect = () => {
     const formUrl = 'https://tally.so/r/3EbLRo';
-    window.open(formUrl);
+    window.location.href = formUrl;
   };
 
   return (
@@ -49,6 +49,7 @@ const Agents = () => {
                   </p>
                 </div>
                 <button
+                  type="button"
                   className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry self-end rounded-3xl"
                   onClick={handleRedirect}
                 >

@@ -1,4 +1,4 @@
-import footer from '/shortleelders-logo.png';
+import footer from '/footer_img.png';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {

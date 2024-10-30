@@ -4,7 +4,7 @@ import AnimatedSection from '../shared/AnimateSection';
 const HeroBanner = () => {
   return (
     <div className="mb-2">
-      <div className="relative inset-0 z-10 bg-[url('/new_hero.jpg')] h-[80vh] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-800">
+      <div className="relative inset-0 z-10 bg-[url('/new_hero3.jpg')] h-[80vh] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-800">
         <Header />
         <div className="container w-full mx-auto">
           <div className="absolute -z-10  px-5 font-normal flex justify-center gap-8 flex-col h-full items-start lg:px-0">

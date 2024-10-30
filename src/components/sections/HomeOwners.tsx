@@ -5,7 +5,7 @@ import invest1 from '/invest1.jpg';
 const HomeOwners = () => {
   const handleRedirect = () => {
     const formUrl = 'https://tally.so/r/wzQZQE';
-    window.open(formUrl);
+    window.location.href = formUrl;
   };
 
   return (
@@ -37,6 +37,7 @@ const HomeOwners = () => {
                   </p>
                 </div>
                 <button
+                  type="button"
                   className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
                   onClick={handleRedirect}
                 >

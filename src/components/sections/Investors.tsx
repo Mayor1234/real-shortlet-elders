@@ -5,7 +5,7 @@ import shortletreturn from '/shortletreturn.jpg';
 const Investors = () => {
   const handleRedirect = () => {
     const formUrl = 'https://tally.so/r/w8pGXY';
-    window.open(formUrl);
+    window.location.href = formUrl;
   };
 
   return (
@@ -35,6 +35,7 @@ const Investors = () => {
                 </p>
               </div>
               <button
+                type="button"
                 className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
                 onClick={handleRedirect}
               >
