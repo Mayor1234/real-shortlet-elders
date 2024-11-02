@@ -83,6 +83,12 @@ const Header = () => {
     },
   };
 
+  const handleClick = (url: string, e: React.MouseEvent) => {
+    e.preventDefault();
+    if (url !== 'https://flutterwave.com/pay/1vd6dso7c3yn') return;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div
       className={`${
@@ -97,8 +103,11 @@ const Header = () => {
                 <li
                   key={i}
                   className={`text-pry tracking-wide text-lg capitalize cursor-pointer py-2 px-3 hover:text-pry transition duration-300 ease-in-out relative w-fit block after:block after:content-[''] after:absolute after:left-0 after:bottom-0 after:border-b-2 after:border-pry after:bg-pry after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left`}
+                  onClick={(e) => handleClick(menu.url, e)}
                 >
-                  {menu.title}
+                  <Link to={menu.url} smooth={true} duration={800}>
+                    {menu.title}
+                  </Link>
                 </li>
               ))}
             </ul>

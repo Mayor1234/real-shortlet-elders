@@ -15,6 +15,13 @@ export default {
         'pie-chart':
           'conic-gradient(#0d1013 0deg 94.68deg, #5e4200 94.68deg 170.64deg, #fcba00 170.64deg 360deg)',
       },
+      fontFamily: {
+        Montserrat: ['Montserrat', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        merriweather: ['Merriweather Sans', 'sans-serif'],
+        garamond: ['EB Garamond', 'serif'],
+        Lora: ['EB+Lora', 'sans-serif'],
+      },
     },
   },
   plugins: [],

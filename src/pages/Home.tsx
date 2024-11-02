@@ -9,9 +9,11 @@ import { Element } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-300 font-Montserrat">
       <HeroBanner />
-      <InvestmentScheme />
+      <Element name="investment">
+        <InvestmentScheme />
+      </Element>
       <Element name="home-owner">
         <HomeOwners />
       </Element>
@@ -22,7 +24,9 @@ const Home = () => {
         <Investors />
       </Element>
       <Residency />
-      <Footer />
+      <Element name="contact">
+        <Footer />
+      </Element>
     </div>
   );
 };

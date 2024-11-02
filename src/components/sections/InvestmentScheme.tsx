@@ -3,109 +3,115 @@ import AnimatedSection from '../shared/AnimateSection';
 
 const InvestmentScheme = () => {
   return (
-    <div className="relative top-0 z-10 bg-[url('/Investment2.jpg')] h-[1500px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-800 mb-2">
+    <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1500px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-700">
       <div className="container mx-auto">
         <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full gap-10 justify-center h-full lg:px-0">
           <div className="container mx-auto">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <div className="text-pry text-center mb-14">
-                <h2 className="text-2xl font-medium leading-relaxed tracking-wide">
-                  INVESTMENT SCHEME OPTIONS
+                <h2 className="text-2xl font-merriweather font-medium leading-relaxed tracking-wide">
+                  Choose your Real Estate Investment Scheme Option
                 </h2>
-                <p className="text-sec text-lg">
-                  Give a Home or Invest to earn 10% of your capital
+                <p className="text-sec font-garamond text-2xl font-bold ">
+                  Investments are created for revenue generation… Create your
+                  path to wealth
                 </p>
               </div>
             </AnimatedSection>
             <div className="flex flex-col justify-between px-5 gap-16 lg:gap-8 lg:flex-row w-full lg:px-0">
-              <AnimatedSection direction={{ initial_x: -90, initial_y: 0 }}>
-                <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
-                  <h2 className="text-pry text-lg text-center font-medium pb-4">
-                    HOME OWNER
-                  </h2>
-                  <p className="text-sec text-center pb-5">
-                    Your Sub Header goes here
-                  </p>
-                  <p className="text-center pb-5">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quae iure, necessitatibus ullam numquam nesciunt aliqua
-                    Facere magnam incidunt nemo itaque reprehenderit totam
-                    beatae id expedita ut?
-                  </p>
-                  <Link
-                    to="home-owner"
-                    smooth={true}
-                    duration={800}
-                    className="self-center -mb-16"
-                  >
-                    <button
-                      type="button"
-                      className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+              <div className="flex-1">
+                <AnimatedSection direction={{ initial_x: -50, initial_y: 0 }}>
+                  <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
+                    <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
+                      HOME OWNER
+                    </h2>
+                    <p className="text-sec font-garamond text-lg font-bold text-center pb-5">
+                      Are you a landlord or tenant-leased home owner?
+                    </p>
+                    <p className="text-center pb-5">
+                      Use your absence to make money for your home. Earn as much
+                      as 1million Naira this december by “swapping” your home
+                      for cash.
+                    </p>
+                    <Link
+                      to="home-owner"
+                      smooth={true}
+                      duration={800}
+                      className="self-center -mb-16"
                     >
-                      Read More
-                    </button>
-                  </Link>
-                </div>
-              </AnimatedSection>
-              <AnimatedSection direction={{ initial_x: 0, initial_y: 90 }}>
-                <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
-                  <h2 className="text-pry text-lg text-center font-medium pb-4">
-                    AGENT
-                  </h2>
-                  <p className="text-sec text-center pb-5">
-                    Your Sub Header goes here
-                  </p>
-                  <p className="text-center pb-5">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quae iure, necessitatibus ullam numquam nesciunt aliquam
-                    Facere magnam incidunt nemo itaque reprehenderit totam
-                    beatae id expedita ut?
-                  </p>
-                  <Link
-                    to="agent"
-                    smooth={true}
-                    duration={800}
-                    className="self-center -mb-16"
-                  >
-                    <button
-                      type="button"
-                      className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                      <button
+                        type="button"
+                        className="overflow-hidden font-merriweather w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                      >
+                        Read More
+                      </button>
+                    </Link>
+                  </div>
+                </AnimatedSection>
+              </div>
+              <div className="flex-1">
+                <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
+                  <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
+                    <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
+                      AGENT
+                    </h2>
+                    <p className="text-sec font-garamond text-lg font-bold text-center pb-5">
+                      Expand your revenue with referral commissions
+                    </p>
+                    <p className="text-center pb-5">
+                      You don’t need to be an official real estate agent to earn
+                      commissions on referrals. Refer a friend, home owner, or
+                      financial investor to the scheme and earn be between 1% to
+                      5% on your referrals.
+                    </p>
+                    <Link
+                      to="agent"
+                      smooth={true}
+                      duration={800}
+                      className="self-center -mb-16"
                     >
-                      Read More
-                    </button>
-                  </Link>
-                </div>
-              </AnimatedSection>
-              <AnimatedSection direction={{ initial_x: 90, initial_y: 0 }}>
-                <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
-                  <h2 className="text-pry text-lg text-center font-medium pb-4">
-                    INVESTOR
-                  </h2>
-                  <p className="text-sec text-center pb-5">
-                    Your Sub Header goes here
-                  </p>
-                  <p className="text-center pb-5">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quae iure, necessitatibus ullam numquam nesciunt aliquam
-                    Facere magnam incidunt nemo itaque reprehenderit totam
-                    beatae id expedita ut?
-                  </p>
-                  <Link
-                    to="investor"
-                    spy={true}
-                    smooth={true}
-                    duration={800}
-                    className="self-center -mb-16"
-                  >
-                    <button
-                      type="button"
-                      className="overflow-hidden w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl  "
+                      <button
+                        type="button"
+                        className="overflow-hidden font-merriweather  w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                      >
+                        Read More
+                      </button>
+                    </Link>
+                  </div>
+                </AnimatedSection>
+              </div>
+              <div className="flex-1">
+                <AnimatedSection direction={{ initial_x: 50, initial_y: 0 }}>
+                  <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
+                    <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
+                      INVESTOR
+                    </h2>
+                    <p className="text-sec font-garamond text-lg font-bold text-center pb-5">
+                      Earn between 10% - 15% (early birds) on your capital
+                      investment
+                    </p>
+                    <p className="text-center pb-5">
+                      With investing as low as N100,000 Naira or its currency
+                      equivalent, earn a top up with our short-term investment
+                      scheme for this december.
+                    </p>
+                    <Link
+                      to="investor"
+                      spy={true}
+                      smooth={true}
+                      duration={800}
+                      className="self-center -mb-16"
                     >
-                      Read More
-                    </button>
-                  </Link>
-                </div>
-              </AnimatedSection>
+                      <button
+                        type="button"
+                        className="overflow-hidden font-merriweather  w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl  "
+                      >
+                        Read More
+                      </button>
+                    </Link>
+                  </div>
+                </AnimatedSection>
+              </div>
             </div>
           </div>
         </div>

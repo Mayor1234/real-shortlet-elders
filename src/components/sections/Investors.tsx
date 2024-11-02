@@ -1,6 +1,7 @@
 import AnimatedSection from '../shared/AnimateSection';
+import InvestmentTable from '../shared/InvestmentTable';
 import SectionsHeading from '../shared/SectionsHeading';
-import shortletreturn from '/shortletreturn.jpg';
+import investors from '/investors.jpeg';
 
 const Investors = () => {
   const handleRedirect = () => {
@@ -9,49 +10,57 @@ const Investors = () => {
   };
 
   return (
-    <div className="bg-[#fff] my-2">
-      <div className="max-w-5xl mx-auto py-16">
-        <div className="flex flex-col px-5 justify-between h-full lg:h-[500px] overflow-hidden lg:flex-row lg:px-0 lg:gap-20">
-          <div className="w-full lg:w-[60%] pb-10 lg:pb-0">
-            <AnimatedSection direction={{ initial_x: -50, initial_y: 0 }}>
+    <div className="bg-[#fff]">
+      <div className="max-w-5xl mx-auto py-10 lg:py-16 ">
+        <div className="flex flex-col px-5 justify-between h-full overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
+          <div className="w-full lg:w-[55%] pb-10 lg:pb-0">
+            <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <SectionsHeading>INVESTORS</SectionsHeading>
-              <p className="text-2xl font-medium leading-none pb-5 uppercase">
+              <p className="text-2xl font-garamond font-medium leading-tight pb-5 uppercase">
                 Earn returns on your <br /> investment ....
               </p>
-              <div className="mb-8">
-                <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                  fuga, cum dolorem ipsam laboriosam quidem dolores hic nulla
-                  dolorum expedita? Nobis minima pariatur eveniet earum nemo
-                  quaerat facere aliquam blanditiis tempore rem rerum qui quas
-                  eligendi consequuntur delectus eaque repellat accusantium,
-                  laudantium modi ex. Ab, aliquam. Deserunt ab sit fugit.
+              <div className="mb-8 text-gray-700">
+                <p className="pb-5">
+                  Investment is not limited to pro investors, entry level
+                  investors or individuals with savings, they would like to{' '}
+                  <strong>“Roll Over”</strong> can participate in the investment
+                  scheme and earn a minimum of 10% on their investment capital
+                  during the duration of the active investment period.
+                  <br />
+                  We require clarity on your investment interest and capital
+                  strength due to the diversity of the locations targeted for
+                  the execution of the scheme. Our minimum investment capital of
+                  N100,000 (One Hundred Thousand Naira) or its equivalent in any
+                  other currency.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Blanditiis commodi magnam impedit pariatur assumenda excepturi
-                  porro esse libero perferendis sunt natus dicta suscipit ab
-                  culpa nostrum facilis, quia eveniet id.
+                  ** Early Birds earn 15% returns upon payout.
                 </p>
+                <div>
+                  <p className="text-2xl font-garamond font-medium leading-tight pb-5 capitalize">
+                    Investment Options
+                  </p>
+                  <InvestmentTable />
+                </div>
               </div>
               <button
                 type="button"
-                className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
                 onClick={handleRedirect}
               >
                 Get Started
               </button>
             </AnimatedSection>
           </div>
-          <div className="flex-1">
-            <AnimatedSection direction={{ initial_x: 50, initial_y: 0 }}>
+          <div className="w-full lg:w-[45%]">
+            <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <figure>
                 <img
-                  src={shortletreturn}
+                  src={investors}
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[350px] lg:h-[400px] rounded-sm"
+                  className="w-full h-[300px] rounded-sm"
                 />
               </figure>
             </AnimatedSection>

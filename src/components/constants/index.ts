@@ -1,10 +1,10 @@
 export const menuItems = [
   {
-    url: 'home',
+    url: '#home',
     title: 'home',
   },
   {
-    url: 'about',
+    url: '#about',
     title: 'about',
   },
   {
@@ -15,6 +15,10 @@ export const menuItems = [
   {
     url: 'contact',
     title: 'contact',
+  },
+  {
+    url: 'https://flutterwave.com/pay/1vd6dso7c3yn',
+    title: 'make your payment',
   },
 ];
 

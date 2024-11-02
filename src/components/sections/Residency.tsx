@@ -3,32 +3,39 @@ import AnimatedSection from '../shared/AnimateSection';
 const Residency = () => {
   return (
     <div>
-      <div className="bg-[#fff] my-2">
-        <div className="container mx-auto py-20">
+      <div className="bg-[#fff]">
+        <div className="container mx-auto py-10 lg:py-16 ">
           <div className="flex flex-col px-5 justify-between items-center h-full lg:h-[500px] overflow-hidden lg:flex-row lg:px-0 lg:gap-10">
             <div className="flex-1 pb-10 lg:pb-0">
               <AnimatedSection direction={{ initial_x: 0, initial_y: 90 }}>
                 <div className="flex flex-col w-full">
-                  <p className="text-2xl text-gray-700 leading-none tracking-wide pb-5">
+                  <p className="text-2xl font-garamond font-medium leading-tight text-gray-700 tracking-wide pb-5">
                     Residency <br />
                     Occupancy Brief
                   </p>
                   <div className="mb-8">
                     <p className="text-gray-600">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Non fuga, cum dolorem ipsam laboriosam quidem dolores hic
-                      nulla dolorum expedita? Nobis minima pariatur eveniet
-                      earum nemo quaerat facere aliquam blanditiis tempore rem
-                      rerum qui quas eligendi consequuntur delectus eaque
-                      repellat accusantium, laudantium modi ex. Ab, aliquam.
-                      Deserunt ab sit fugit. Lorem ipsum dolor sit amet
-                      consectetur adipisicing elit. Blanditiis commodi magnam
-                      impedit pariatur assumenda excepturi porro esse libero
-                      perferendis sunt natus dicta suscipit ab culpa nostrum
-                      facilis, quia eveniet id.
+                      With a high request for homes in the month of December, we
+                      intend to leave no stone unturned to cater to as much
+                      temporary tenants as possible. This means increased
+                      occupancy rates equals increased inflow using a volume
+                      calculation metric.
+                      <br />
+                      <br />
+                      With minimal time to market upon the development of the
+                      scheme, we would be investing heavily to generate returns
+                      upon access to a market of over 1,000+ agents with mass
+                      market outreach.
+                      <br />
+                      <br />
+                      The success of this scheme is based on the request of more
+                      family filled home placement apartments, scarcity of
+                      affordable apartments in the month of december for
+                      families to make the most of with breaking the bank and
+                      the demand for space.
                     </p>
                   </div>
-                  <button className="overflow-hidden px-6 py-3 font-semibold text-darkLight bg-pry self-center rounded-3xl">
+                  <button className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry self-center rounded-3xl">
                     Talk to our team
                   </button>
                 </div>
