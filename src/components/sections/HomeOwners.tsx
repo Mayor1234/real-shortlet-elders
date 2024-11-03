@@ -38,7 +38,7 @@ const HomeOwners = () => {
                     Victoria Island and Ikoyi. With their apartment types
                     ranging from
                   </p>
-                  <ul className="list-none ml-8 text-gray-600">
+                  <ul className="list-none ml-8 text-gray-600 flex  flex-col gap-3">
                     <li className="flex items-center">
                       <span className="mr-3">-</span>
                       Single Rooms in a Shared Apartment

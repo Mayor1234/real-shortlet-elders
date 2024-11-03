@@ -99,15 +99,16 @@ const Header = () => {
           <nav className="hidden md:flex gap-20">
             <ul className="w-full flex items-center justify-between space-x-8">
               {menuItems.map((menu, i) => (
-                <li
+                <Link
+                  to={menu.url}
+                  smooth={true}
+                  duration={800}
                   key={i}
                   className={`text-pry tracking-wide text-lg capitalize cursor-pointer py-2 px-3 hover:text-pry transition duration-300 ease-in-out relative w-fit block after:block after:content-[''] after:absolute after:left-0 after:bottom-0 after:border-b-2 after:border-pry after:bg-pry after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left`}
                   onClick={() => handleClick(menu.url)}
                 >
-                  <Link to={menu.url} smooth={true} duration={800}>
-                    {menu.title}
-                  </Link>
-                </li>
+                  {menu.title}
+                </Link>
               ))}
             </ul>
           </nav>
@@ -177,16 +178,20 @@ const Header = () => {
                       exit="exit"
                     >
                       {menuItems.map((menu, i) => (
-                        <motion.li
-                          key={i}
-                          className="text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-center"
-                          variants={linkItemVariants}
+                        <Link
+                          to={menu.url}
+                          smooth={true}
+                          duration={800}
                           onClick={() => handleClick(menu.url)}
                         >
-                          <Link to={menu.url} smooth={true} duration={800}>
+                          <motion.li
+                            key={i}
+                            className="text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-center"
+                            variants={linkItemVariants}
+                          >
                             {menu.title}
-                          </Link>
-                        </motion.li>
+                          </motion.li>
+                        </Link>
                       ))}
                     </motion.ul>
                   </nav>
