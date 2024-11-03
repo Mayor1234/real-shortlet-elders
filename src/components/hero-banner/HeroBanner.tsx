@@ -2,6 +2,9 @@ import Header from '../header/Headers';
 import AnimatedSection from '../shared/AnimateSection';
 
 const HeroBanner = () => {
+  const handleRedirect = () => {
+    window.open('https://wa.me/2347034578122', '_blank', 'noopener,noreferrer');
+  };
   return (
     <div className="relative inset-0 z-10 bg-[url('/hero_banner.jpeg')] h-[80vh] w-screen lg:h-[90vh] bg-no-repeat bg-cover bg-right bg-blend-overlay bg-neutral-700 px-0">
       <Header />
@@ -16,7 +19,10 @@ const HeroBanner = () => {
               investments … This december is bound to be a financial bliss..
             </p>
           </AnimatedSection>
-          <button className="overflow-hidden font-merriweather font-medium text-lg px-6 py-3 text-darkLight bg-pry rounded-sm self-center lg:text-xl lg:font-semibold lg:self-start">
+          <button
+            className="overflow-hidden font-merriweather font-medium text-lg px-6 py-3 text-darkLight bg-pry rounded-sm self-center lg:text-xl lg:font-semibold lg:self-start"
+            onClick={handleRedirect}
+          >
             Talk to our team
           </button>
         </div>

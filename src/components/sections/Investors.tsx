@@ -34,7 +34,8 @@ const Investors = () => {
                   other currency.
                   <br />
                   <br />
-                  ** Early Birds earn 15% returns upon payout.
+                  ** Early Birds earn 15% returns upon payout. Valid till
+                  November 15th, 2024
                 </p>
                 <div>
                   <p className="text-2xl font-garamond font-medium leading-tight pb-5 capitalize">

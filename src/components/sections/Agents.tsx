@@ -49,7 +49,7 @@ const Agents = () => {
                   className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry self-end rounded-3xl"
                   onClick={handleRedirect}
                 >
-                  Register your referal
+                  Agents | Referals
                 </button>
               </div>
             </AnimatedSection>

@@ -1,6 +1,9 @@
 import AnimatedSection from '../shared/AnimateSection';
 
 const Residency = () => {
+  const handleRedirect = () => {
+    window.open('https://wa.me/2347067826403', '_blank', 'noopener,noreferrer');
+  };
   return (
     <div>
       <div className="bg-[#fff]">
@@ -35,7 +38,10 @@ const Residency = () => {
                       the demand for space.
                     </p>
                   </div>
-                  <button className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry self-center rounded-3xl">
+                  <button
+                    className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry self-center rounded-3xl"
+                    onClick={handleRedirect}
+                  >
                     Talk to our team
                   </button>
                 </div>
