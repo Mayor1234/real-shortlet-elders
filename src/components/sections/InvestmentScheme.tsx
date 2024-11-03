@@ -3,13 +3,13 @@ import AnimatedSection from '../shared/AnimateSection';
 
 const InvestmentScheme = () => {
   return (
-    <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1500px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-700">
+    <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1700px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-700">
       <div className="container mx-auto">
-        <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full gap-10 justify-center h-full lg:px-0">
+        <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full  gap-10 justify-center h-full lg:px-0">
           <div className="container mx-auto">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <div className="text-pry text-center mb-14">
-                <h2 className="text-2xl font-merriweather font-medium leading-relaxed tracking-wide">
+                <h2 className="text-2xl font-merriweather font-medium leading-relaxed tracking-wide py-5 lg:py-0">
                   Choose your Real Estate Investment Scheme Option
                 </h2>
                 <p className="text-sec font-garamond text-2xl font-bold ">
@@ -18,9 +18,9 @@ const InvestmentScheme = () => {
                 </p>
               </div>
             </AnimatedSection>
-            <div className="flex flex-col justify-between px-5 gap-16 lg:gap-8 lg:flex-row w-full lg:px-0">
+            <div className="flex flex-col justify-between w-full h-full px-5 gap-16 lg:gap-8 lg:flex-row lg:px-0">
               <div className="flex-1">
-                <AnimatedSection direction={{ initial_x: -50, initial_y: 0 }}>
+                <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
                   <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
                     <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
                       HOME OWNER
@@ -51,7 +51,7 @@ const InvestmentScheme = () => {
               </div>
               <div className="flex-1">
                 <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
-                  <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
+                  <div className="py-12 px-8 bg-darkLight text-light h-full rounded-md flex flex-col">
                     <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
                       AGENT
                     </h2>
@@ -81,7 +81,7 @@ const InvestmentScheme = () => {
                 </AnimatedSection>
               </div>
               <div className="flex-1">
-                <AnimatedSection direction={{ initial_x: 50, initial_y: 0 }}>
+                <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
                   <div className="py-12 px-8 bg-darkLight text-light rounded-md flex flex-col">
                     <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
                       INVESTOR

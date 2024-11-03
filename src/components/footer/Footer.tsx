@@ -3,8 +3,8 @@ import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="flex flex-col bg-light justify-between h-full lg:h-[500px] overflow-hidden  lg:flex-row lg:px-0">
-      <div className="flex-1 py-10 lg:py-0">
+    <div className="flex flex-col bg-light justify-between h-full lg:h-[500px] overflow-hidden lg:flex-row lg:px-0">
+      <div className="w-full lg:w-1/2  py-10 lg:py-0">
         <img
           src={contact_footer}
           alt="invest"
@@ -13,7 +13,7 @@ const Footer = () => {
           className="w-full h-[350px] lg:h-[500px]"
         />
       </div>
-      <div className="flex-1 px-5 pb-10 lg:pb-0 lg:px-0">
+      <div className="w-full lg:w-1/2 px-5 pb-10 lg:pb-0 lg:px-0">
         <div className="flex flex-col justify-center items-center w-full h-full">
           <div className="font-Montserrat">
             <p className="text-gray-800 text-xl pb-10 font-garamond font-medium ">

@@ -119,7 +119,7 @@ const Header = () => {
                 alt="logo"
                 width={100}
                 height={100}
-                className="h-20  w-20 max-w-20 object-cover object-center"
+                className="h-20 w-20 object-cover object-center"
               />
             </Link>
           </div>
