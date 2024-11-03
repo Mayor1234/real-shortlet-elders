@@ -177,13 +177,15 @@ const Header = () => {
                       animate="visible"
                       exit="exit"
                     >
-                      {menuItems.map((navLink, i) => (
+                      {menuItems.map((menu, i) => (
                         <motion.li
                           key={i}
                           className="text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-center"
                           variants={linkItemVariants}
                         >
-                          {navLink.title}
+                          <Link to={menu.url} smooth={true} duration={800}>
+                            {menu.title}
+                          </Link>
                         </motion.li>
                       ))}
                     </motion.ul>
