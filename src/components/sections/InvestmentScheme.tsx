@@ -3,7 +3,7 @@ import AnimatedSection from '../shared/AnimateSection';
 
 const InvestmentScheme = () => {
   return (
-    <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1700px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-700">
+    <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1600px] w-screen lg:h-[85vh] bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-700">
       <div className="container mx-auto">
         <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full  gap-10 justify-center h-full lg:px-0">
           <div className="container mx-auto">
