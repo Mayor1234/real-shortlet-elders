@@ -123,7 +123,7 @@ const Header = () => {
               />
             </Link>
           </div>
-          <div className="inset-0 flex w-full h-full items-center justify-center flex-col lg:hidden">
+          <div className="inset-0 flex w-full h-screen items-center justify-center flex-col lg:hidden">
             <div
               className="absolute right-5 top-0 translate-y-1/2 z-50 cursor-pointer"
               onClick={() => setModalOpen()}
@@ -163,13 +163,13 @@ const Header = () => {
             <AnimatePresence>
               {modalOpen && (
                 <motion.div
-                  className="absolute inset-0 z-40 bg-[#0b252b] h-screen w-full"
+                  className="absolute inset-0 z-40 bg-[#000] h-screen w-full"
                   variants={modalVariants}
                   initial="hidden"
                   animate="visible"
                   exit="exit"
                 >
-                  <nav className="flex flex-col z-50 items-center justify-center w-full h-[80%]">
+                  <nav className="w-full h-[80%]">
                     <motion.ul
                       className="flex flex-col gap-10 items-center justify-center h-full w-full"
                       variants={navLinksVariants}
@@ -186,7 +186,7 @@ const Header = () => {
                         >
                           <motion.li
                             key={i}
-                            className="text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-center"
+                            className="text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-start capitalize"
                             variants={linkItemVariants}
                           >
                             {menu.title}
