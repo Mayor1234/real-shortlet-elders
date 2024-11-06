@@ -13,12 +13,12 @@ const Footer = () => {
           className="w-full h-[350px] lg:h-[500px]"
         />
       </div>
-      <div className="w-full flex justify-center items-center py-10 lg:w-1/2 lg:py-0 lg:px-0">
+      <div className="w-full flex justify-center items-center p-10 lg:w-1/2 lg:py-0 lg:px-0">
         <div className="font-Montserrat flex flex-col items-center justify-center px-5 lg:px-0">
-          <p className="text-gray-800 text-xl pb-10 font-garamond font-medium ">
+          <p className="text-gray-800 text-xl mb-10 font-garamond font-medium ">
             CONTACT US
           </p>
-          <div className="p-10">
+          <div className="">
             <div className="flex gap-5 lg:gap-10 mb-5">
               <p className="w-20 text-gray-800 font-medium">Email:</p>
               <div className="text-gray-700">
