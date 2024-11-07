@@ -3,13 +3,13 @@ import AnimatedSection from '../shared/AnimateSection';
 
 const InvestmentScheme = () => {
   return (
-    <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1600px] w-screen lg:h-screen bg-no-repeat bg-cover bg-bottom bg-blend-overlay bg-neutral-700">
+    <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1850px] w-screen lg:h-screen bg-no-repeat bg-cover bg-center bg-blend-overlay bg-neutral-700 overflow-hidden">
       <div className="container mx-auto">
         <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full  gap-10 justify-center h-full lg:px-0 leading-relaxed">
           <div className="container mx-auto">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <div className="text-pry text-center mb-14">
-                <h2 className="text-2xl font-merriweather font-medium tracking-wide py-5 lg:py-0">
+                <h2 className="text-2xl font-merriweather font-medium tracking-wide pb-5 lg:py-0">
                   Choose your Real Estate Investment Scheme Option
                 </h2>
                 <p className="text-sec font-garamond text-2xl font-bold ">
