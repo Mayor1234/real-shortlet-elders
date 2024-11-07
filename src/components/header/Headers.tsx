@@ -182,7 +182,10 @@ const Header = () => {
                           to={menu.url}
                           smooth={true}
                           duration={800}
-                          onClick={() => handleClick(menu.url)}
+                          onClick={() => {
+                            handleClick(menu.url);
+                            setModalOpen();
+                          }}
                         >
                           <motion.li
                             key={i}
