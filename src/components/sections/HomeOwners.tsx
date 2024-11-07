@@ -4,23 +4,22 @@ import homeOwner from '/home_owner.jpeg';
 
 const HomeOwners = () => {
   const handleRedirect = () => {
-    const formUrl = 'https://tally.so/r/wzQZQE';
-    window.location.href = formUrl;
+    window.open('https://tally.so/r/wzQZQE', '_blank', 'noopener,noreferrer');
   };
 
   return (
     <div className="bg-[#fff]">
-      <div className="max-w-5xl mx-auto py-10 lg:py-16 font-Montserrat">
+      <div className="container mx-auto py-10 lg:py-16 font-Montserrat">
         <div className="flex flex-col px-5 justify-between h-full overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
           <div className="w-full lg:w-[55%] pb-10 lg:pb-0">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
-              <div>
+              <div className="">
                 <SectionsHeading>HOME OWNERS</SectionsHeading>
-                <p className="text-2xl font-garamond font-medium leading-tight pb-5 uppercase">
+                <p className="text-xl text-gray-900 font-garamond font-medium leading-tight pb-5 uppercase">
                   EARN WITH YOUR HOME <br />
                   (SHORT TERM REAL ESTATE LEASE)
                 </p>
-                <div className="mb-8 text-gray-700">
+                <div className="mb-8 text-gray-800 leading-loose">
                   <p className="pb-3">
                     With an outright payment for verified and inspected homes,
                     home owners or tenant leased home occupants stand a chance
@@ -38,7 +37,7 @@ const HomeOwners = () => {
                     Victoria Island and Ikoyi. With their apartment types
                     ranging from
                   </p>
-                  <ul className="list-none ml-8 text-gray-600 flex  flex-col gap-3">
+                  <ul className="list-none ml-8 flex  flex-col gap-3">
                     <li className="flex items-center">
                       <span className="mr-3">-</span>
                       Single Rooms in a Shared Apartment
@@ -84,14 +83,14 @@ const HomeOwners = () => {
           </div>
           <div className="w-full lg:w-[45%]">
             <div className="w-full">
-              <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
+              <AnimatedSection direction={{ initial_x: 0, initial_y: 70 }}>
                 <figure>
                   <img
                     src={homeOwner}
                     alt="invest"
                     width={100}
                     height={100}
-                    className="w-full h-[250px] lg:h-[300px] rounded-sm"
+                    className="w-full h-[250px] lg:h-[400px] rounded-md"
                   />
                 </figure>
               </AnimatedSection>

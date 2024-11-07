@@ -5,21 +5,20 @@ import investors from '/investors.jpeg';
 
 const Investors = () => {
   const handleRedirect = () => {
-    const formUrl = 'https://tally.so/r/w8pGXY';
-    window.location.href = formUrl;
+    window.open('https://tally.so/r/w8pGXY', '_blank', 'noopener,noreferrer');
   };
 
   return (
     <div className="bg-[#fff]">
-      <div className="max-w-5xl mx-auto py-10 lg:py-16 ">
+      <div className="container mx-auto py-10 lg:py-16 ">
         <div className="flex flex-col px-5 justify-between h-full overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
           <div className="w-full lg:w-[55%] pb-10 lg:pb-0">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <SectionsHeading>INVESTORS</SectionsHeading>
-              <p className="text-2xl font-garamond font-medium leading-tight pb-5 uppercase">
+              <p className="text-2xl text-gray-900 font-garamond font-medium leading-tight pb-5 uppercase">
                 Earn returns on your <br /> investment ....
               </p>
-              <div className="mb-8 text-gray-700">
+              <div className="mb-8 text-gray-800 leading-loose">
                 <p className="pb-5">
                   Investment is not limited to pro investors, entry level
                   investors or individuals with savings, they would like to{' '}
@@ -61,7 +60,7 @@ const Investors = () => {
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[250px] lg:h-[300px] rounded-sm"
+                  className="w-full h-[250px] lg:h-[400px] rounded-md"
                 />
               </figure>
             </AnimatedSection>

@@ -91,8 +91,8 @@ const Header = () => {
   return (
     <div
       className={`${
-        navScroll ? 'bg-[#000000]/50 bg-blend-overlay' : 'bg-transparent'
-      } w-full sticky top-0 h-20`}
+        navScroll ? 'bg-[#000000] bg-blend-overlay' : 'bg-transparent'
+      } w-full sticky top-0 h-20 z-50`}
     >
       <div className="container mx-auto px-5 lg:px-0">
         <div className="flex justify-between items-center w-full h-20 z-50 border-none text-pry">
@@ -104,7 +104,7 @@ const Header = () => {
                   smooth={true}
                   duration={800}
                   key={i}
-                  className={`text-pry tracking-wide text-lg capitalize cursor-pointer py-2 px-3 hover:text-pry transition duration-300 ease-in-out relative w-fit block after:block after:content-[''] after:absolute after:left-0 after:bottom-0 after:border-b-2 after:border-pry after:bg-pry after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left`}
+                  className={`text-pry tracking-wide text-base capitalize cursor-pointer py-2 px-3 hover:text-pry transition duration-300 ease-in-out relative w-fit block after:block after:content-[''] after:absolute after:left-0 after:bottom-0 after:border-b-2 after:border-pry after:bg-pry after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left`}
                   onClick={() => handleClick(menu.url)}
                 >
                   {menu.title}
@@ -171,7 +171,7 @@ const Header = () => {
                 >
                   <nav className="w-full h-[80%]">
                     <motion.ul
-                      className="flex flex-col gap-10 items-center justify-center h-full w-full"
+                      className="flex flex-col gap-10 items-start justify-center h-full w-full px-10"
                       variants={navLinksVariants}
                       initial="hidden"
                       animate="visible"

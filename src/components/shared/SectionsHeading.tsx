@@ -7,7 +7,7 @@ interface SectionProps {
 const SectionsHeading: React.FC<SectionProps> = ({ children }) => {
   return (
     <div className="w-full pb-5">
-      <h2 className="text-lg font-merriweather text-pry leading-normal tracking-wide font-semibold">
+      <h2 className="text-lg font-merriweather text-pry leading-normal tracking-wide font-semibold uppercase">
         {children}
       </h2>
     </div>

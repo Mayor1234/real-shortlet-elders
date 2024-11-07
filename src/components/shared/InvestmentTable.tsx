@@ -26,7 +26,7 @@ const InvestmentTable: React.FC = () => {
         </thead>
         <tbody>
           {data.map((item) => (
-            <tr key={item.key} className="text-gray-600">
+            <tr key={item.key} className="text-gray-700">
               <td className="px-4 py-2 ">{item.key}</td>
               <td className="px-4 py-2 ">{item.value}</td>
             </tr>

@@ -38,8 +38,9 @@ const Footer = () => {
                 onClick={() =>
                   window.open('http://instagram.com/shortletelders')
                 }
+                className="w-7 h-7 lg:w-8 lg:h-8 bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 rounded-md flex items-center justify-center"
               >
-                <FaInstagram className="w-7 h-7 text-gray-500 cursor-pointer" />
+                <FaInstagram className="text-white cursor-pointer" />
               </p>
             </div>
           </div>

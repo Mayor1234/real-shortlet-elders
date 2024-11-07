@@ -1,4 +1,4 @@
-import Footer from '../components/footer/Footer';
+import Footer from '../components/footer/FooterComponent';
 import HeroBanner from '../components/hero-banner/HeroBanner';
 import Agents from '../components/sections/Agents';
 import HomeOwners from '../components/sections/HomeOwners';

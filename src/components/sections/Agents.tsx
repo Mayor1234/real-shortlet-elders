@@ -4,12 +4,12 @@ import agents from '/agents.jpeg';
 
 const Agents = () => {
   const handleRedirect = () => {
-    window.location.href = 'https://tally.so/r/3EbLRo';
+    window.open('https://tally.so/r/3EbLRo', '_blank', 'noopener,noreferrer');
   };
 
   return (
     <div className="bg-[#fff]">
-      <div className="max-w-5xl mx-auto py-10 lg:py-16 ">
+      <div className="container mx-auto py-10 lg:py-16 ">
         <div className="flex flex-col-reverse px-5 justify-between h-full  overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
           <div className="w-full lg:w-[45%]">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
@@ -19,19 +19,19 @@ const Agents = () => {
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[250px] lg:h-[300px] rounded-sm"
+                  className="w-full h-[250px] lg:h-[400px] rounded-md"
                 />
               </figure>
             </AnimatedSection>
           </div>
-          <div className="w-full lg:w-[55%] pb-10 lg:pb-0">
-            <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
-              <SectionsHeading>AGENT</SectionsHeading>
-              <div className="flex flex-col w-full">
-                <p className="text-2xl font-garamond font-medium leading-tight pb-5 uppercase">
+          <div className="w-full lg:w-[55%] pb-10 lg:pb-0 ">
+            <AnimatedSection direction={{ initial_x: 0, initial_y: 70 }}>
+              <SectionsHeading>Agent Referrals</SectionsHeading>
+              <div className="flex flex-col w-full ">
+                <p className="text-2xl text-gray-900 font-garamond font-medium leading-tight pb-5 uppercase">
                   Earn <br /> commissions ....
                 </p>
-                <div className="mb-8 text-gray-700">
+                <div className="mb-8 text-gray-800 leading-loose">
                   <p className="">
                     Earn by knowing someone who would be interested in the
                     scheme. As an agent or non-agent, you get to earn as low as
