@@ -60,7 +60,7 @@ const Investors = () => {
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[250px] lg:h-[400px] rounded-md"
+                  className="w-full h-[250px] lg:h-[380px] rounded-md"
                 />
               </figure>
             </AnimatedSection>
