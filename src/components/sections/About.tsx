@@ -38,7 +38,7 @@ const About = () => {
                     <br />
                     Our platform enforces strict policies to ensure trust and
                     safety, enabling members to:
-                    <ul className="list-disc ml-8">
+                    <ul className="list-disc ml-8 flex flex-col gap-3 text-gray-700">
                       <li>
                         List and Share Properties: Agents and hosts can showcase
                         their properties, connect with one another, and build
