@@ -91,10 +91,10 @@ const Header = () => {
   return (
     <div
       className={`${
-        navScroll ? 'bg-[#000000] bg-blend-overlay' : 'bg-transparent'
+        navScroll ? 'bg-[#000000]/90 bg-blend-overlay' : 'bg-transparent'
       } w-full sticky top-0 h-20 z-50`}
     >
-      <div className="container mx-auto px-5 lg:px-0">
+      <div className="max-w-6xl mx-auto px-5 lg:px-0">
         <div className="flex justify-between items-center w-full h-20 z-50 border-none text-pry">
           <nav className="hidden md:flex gap-20">
             <ul className="w-full flex items-center justify-between space-x-8">
@@ -189,7 +189,7 @@ const Header = () => {
                         >
                           <motion.li
                             key={i}
-                            className="text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-start capitalize"
+                            className="w-full text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-start capitalize"
                             variants={linkItemVariants}
                           >
                             {menu.title}

@@ -6,7 +6,7 @@ const InvestmentScheme = () => {
     <div className="relative font-Montserrat top-0 z-10 bg-[url('/investment_banner.jpeg')] h-[1850px] w-screen lg:h-screen bg-no-repeat bg-cover bg-center bg-blend-overlay bg-neutral-700 overflow-hidden">
       <div className="container mx-auto">
         <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full  gap-10 justify-center h-full lg:px-0 leading-relaxed">
-          <div className="container mx-auto">
+          <div className="max-w-6xl mx-auto">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <div className="text-pry text-center mb-14">
                 <h2 className="text-2xl font-merriweather font-medium tracking-wide pb-5 lg:py-0">
