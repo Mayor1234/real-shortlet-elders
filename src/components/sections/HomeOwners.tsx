@@ -37,7 +37,7 @@ const HomeOwners = () => {
                     Victoria Island and Ikoyi. With their apartment types
                     ranging from
                   </p>
-                  <ul className="list-none ml-5 flex  flex-col gap-3">
+                  <ul className="list-none ml-5 flex flex-col gap-3">
                     <li className="flex items-center">
                       <span className="mr-3">-</span>
                       Single Rooms in a Shared Apartment
@@ -90,7 +90,7 @@ const HomeOwners = () => {
                     alt="invest"
                     width={100}
                     height={100}
-                    className="w-full h-[250px] lg:h-[380px] rounded-md"
+                    className="w-full h-[250px] lg:h-[360px] rounded-md"
                   />
                 </figure>
               </AnimatedSection>

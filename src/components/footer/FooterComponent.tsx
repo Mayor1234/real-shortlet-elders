@@ -11,19 +11,19 @@ const Footer = () => {
           </p>
           <div className="overflow-hidden flex flex-col w-full">
             <div className="flex w-full gap-5 lg:gap-10 mb-5">
-              <p className="w-20 lg:w-28 text-base lg:text-xl font-medium">
+              <p className="w-20 lg:w-28 text-base lg:text-2xl font-medium">
                 Email:
               </p>
-              <div className="text-sm lg:text-lg max-w-sm lg:max-w-2xl">
+              <div className="text-sm lg:text-xl max-w-sm lg:max-w-2xl">
                 <p className="pb-1">johnottoh@shortletelders.com</p>
                 <p>mullyshaven@shortletelders.com</p>
               </div>
             </div>
             <div className="flex w-full gap-5 lg:gap-10 mb-5">
-              <p className="w-20 lg:w-28 text-base lg:text-xl font-medium">
+              <p className="w-20 lg:w-28 text-base lg:text-2xl font-medium">
                 Number:
               </p>
-              <div className="text-sm lg:text-lg max-w-sm lg:max-w-2xl">
+              <div className="text-sm lg:text-xl max-w-sm lg:max-w-2xl">
                 <p className="pb-1">+2347034578122 ( Calls & Whatsapp)</p>
                 <p>+2347067826403 (Whatsapp Only)</p>
               </div>

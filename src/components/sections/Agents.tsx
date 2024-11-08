@@ -19,7 +19,7 @@ const Agents = () => {
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[250px] lg:h-[380px] rounded-md"
+                  className="w-full h-[250px] lg:h-[360px] rounded-md"
                 />
               </figure>
             </AnimatedSection>

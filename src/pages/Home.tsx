@@ -1,5 +1,6 @@
 import Footer from '../components/footer/FooterComponent';
 import HeroBanner from '../components/hero-banner/HeroBanner';
+import About from '../components/sections/About';
 import Agents from '../components/sections/Agents';
 import HomeOwners from '../components/sections/HomeOwners';
 import InvestmentScheme from '../components/sections/InvestmentScheme';
@@ -24,6 +25,9 @@ const Home = () => {
         <Investors />
       </Element>
       <Residency />
+      <Element name="about">
+        <About />
+      </Element>
       <Element name="contact">
         <Footer />
       </Element>

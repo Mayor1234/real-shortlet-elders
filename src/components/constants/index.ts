@@ -4,7 +4,7 @@ export const menuItems = [
     title: 'home',
   },
   {
-    url: '#about',
+    url: 'about',
     title: 'about',
   },
   {
