@@ -38,9 +38,9 @@ const Faqs = () => {
               Before investing in the Shortlet Elders December Investment
               Scheme, here are key questions you may want to consider:
             </h2>
-            <div className="w-full overflow-y-auto h-full mb-5 lg:mb-0">
+            <div className="w-full h-full mb-5 lg:overflow-y-auto lg:mb-0">
               <AnimatedSection
-                direction={{ initial_x: -100, initial_y: 0, duration: 0.5 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
               >
                 <Accordion
                   title={'What is the structure of the investment scheme?'}
@@ -67,7 +67,7 @@ const Faqs = () => {
               </AnimatedSection>
 
               <AnimatedSection
-                direction={{ initial_x: -50, initial_y: 0, duration: 0.6 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
               >
                 <Accordion
                   title={
@@ -83,7 +83,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: -50, initial_y: 0, duration: 0.7 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
               >
                 <Accordion title={'What is the investment term and duration?'}>
                   <p className="w-full  leading-relaxed pb-4 pt-2">
@@ -97,7 +97,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: -50, initial_y: 0, duration: 0.7 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
               >
                 <Accordion
                   title={
@@ -113,7 +113,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: -50, initial_y: 0, duration: 0.8 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
               >
                 <Accordion title={'What are the a ssociated risks?'}>
                   <p className="w-full  leading-relaxed pb-4 pt-2">
@@ -137,7 +137,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: -50, initial_y: 0, duration: 0.8 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.8 }}
               >
                 <Accordion
                   title={'How are returns calculated and distributed?'}
@@ -153,14 +153,14 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: -50, initial_y: 0, duration: 0.9 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.9 }}
               >
                 <Accordion
                   title={
                     'Is the 15% return a guaranteed amount or an estimated target? When and how will returns be distributed to investors?'
                   }
                 >
-                  <p className="w-full  leading-relaxed pb-4 pt-2">
+                  <p className="w-full leading-relaxed pb-4 pt-2">
                     The <b>15% return</b>for the
                     <b>Shortlet Elders December Investment Scheme</b> is a
                     guaranteed amount. While the scheme is structured to achieve
@@ -180,14 +180,14 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: -50, initial_y: 0, duration: 0.9 }}
+                direction={{ initial_x: 0, initial_y: 0, duration: 0.9 }}
               >
                 <Accordion
                   title={
                     'What security or guarantees are in place for investors?'
                   }
                 >
-                  <p className="w-full  leading-relaxed pb-4 pt-2">
+                  <p className="w-full leading-relaxed pb-4 pt-2">
                     The <b>Shortlet Elders December Investment Scheme</b> offers
                     several safeguards to provide security to investors also
                     Clear terms and conditions outlined in the investment
@@ -218,7 +218,7 @@ const Faqs = () => {
               <AnimatedSection
                 direction={{ initial_x: 0, initial_y: 50, duration: 0.9 }}
               >
-                <div className="text-gray-800 text-lg mt-10 font-Montserrat leading-normal tracking-wide">
+                <div className="text-gray-900 text-lg mt-10 font-Montserrat leading-normal tracking-wide">
                   <p>
                     If you have more questions or need detailed answers
                     regarding the Shortlet Elders December Investment Scheme,

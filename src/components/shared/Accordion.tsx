@@ -11,13 +11,13 @@ const Accordion = ({ title, children }: Prop) => {
   return (
     <div className="border-b border-gray-200">
       <button
-        className="flex justify-between items-center py-3 w-full"
+        className="flex justify-between items-center py-3 w-full cursor-pointer"
         onClick={() => setAccordionOpen(!accordionOpen)}
       >
         <span
           className={`${
             accordionOpen && 'text-gray-800'
-          } text-xl font-medium text-start pr-5`}
+          } text-lg font-medium text-start pr-5`}
         >
           {title}
         </span>

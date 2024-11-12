@@ -96,14 +96,14 @@ const Header = () => {
   };
 
   return (
-    <div
+    <header
       className={`${
         navScroll ? 'bg-[#000000]/90 bg-blend-overlay' : 'bg-transparent'
       } w-full sticky top-0 h-20 z-50`}
     >
       <div className="max-w-6xl mx-auto px-5 lg:px-0">
-        <div className="flex justify-between items-center w-full h-20 z-50 border-none text-pry">
-          <nav className="hidden md:flex gap-20">
+        <div className="flex justify-between items-center w-full z-50 h-20 border-none text-pry">
+          <nav className="hidden lg:flex gap-20">
             <ul className="w-full flex items-center justify-between space-x-8">
               {menuItems.map((menu, i) => (
                 <ScrollLink
@@ -130,7 +130,7 @@ const Header = () => {
               />
             </RouterLink>
           </div>
-          <div className="inset-0 flex w-full h-screen items-center justify-center flex-col lg:hidden">
+          <div className="flex w-full items-center justify-center flex-col lg:hidden">
             <div
               className="absolute right-5 top-0 translate-y-1/2 z-50 cursor-pointer"
               onClick={() => setModalOpen()}
@@ -211,7 +211,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
