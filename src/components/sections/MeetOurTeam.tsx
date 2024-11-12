@@ -48,7 +48,7 @@ const MeetOurTeam = () => {
                         alt="john"
                         width={100}
                         height={100}
-                        className="w-full object-cover h-72 lg:w-72 lg:h-96 rounded-t-xl"
+                        className="w-full object-cover object-center h-72 lg:w-72 lg:h-96 rounded-t-xl"
                       />
                     </figure>
                   </div>

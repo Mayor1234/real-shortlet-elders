@@ -46,7 +46,7 @@ export const ourTeam = [
   },
   {
     name: 'Epere augustine',
-    title: 'Publicist',
+    title: 'Head of Media Relations',
     img: '/Epere.jpg',
   },
 ];
