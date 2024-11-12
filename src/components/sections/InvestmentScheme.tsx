@@ -7,7 +7,9 @@ const InvestmentScheme = () => {
       <div className="container mx-auto">
         <div className="absolute inset-0 -z-10 px-5 font-normal flex items-center w-full  gap-10 justify-center h-full lg:px-0 leading-relaxed">
           <div className="max-w-6xl mx-auto">
-            <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
+            <AnimatedSection
+              direction={{ initial_x: 0, initial_y: 50, duration: 0.5 }}
+            >
               <div className="text-pry text-center mb-14">
                 <h2 className="text-2xl font-merriweather font-medium tracking-wide pb-5 lg:py-0">
                   Choose your Real Estate Investment Scheme Option
@@ -20,7 +22,9 @@ const InvestmentScheme = () => {
             </AnimatedSection>
             <div className="flex flex-col justify-between leading-relaxed w-full h-full px-5 gap-16 lg:gap-8 lg:flex-row lg:px-0">
               <div className="flex-1">
-                <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
+                <AnimatedSection
+                  direction={{ initial_x: 0, initial_y: 50, duration: 0.7 }}
+                >
                   <div className="relative py-12 px-8 bg-darkLight text-light h-auto rounded-md flex flex-col lg:h-96">
                     <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
                       HOME OWNER
@@ -41,7 +45,7 @@ const InvestmentScheme = () => {
                     >
                       <button
                         type="button"
-                        className="overflow-hidden font-merriweather w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                        className="overflow-hidden font-merriweather w-40 px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec hover:text-black rounded-3xl"
                       >
                         Read More
                       </button>
@@ -50,7 +54,9 @@ const InvestmentScheme = () => {
                 </AnimatedSection>
               </div>
               <div className="flex-1">
-                <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
+                <AnimatedSection
+                  direction={{ initial_x: 0, initial_y: 50, duration: 0.9 }}
+                >
                   <div className="relative py-12 px-8 bg-darkLight  text-light h-auto rounded-md flex flex-col lg:h-96">
                     <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
                       AGENT
@@ -72,7 +78,7 @@ const InvestmentScheme = () => {
                     >
                       <button
                         type="button"
-                        className="overflow-hidden font-merriweather  w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                        className="overflow-hidden font-merriweather  w-40 px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec hover:text-black rounded-3xl"
                       >
                         Read More
                       </button>
@@ -104,7 +110,7 @@ const InvestmentScheme = () => {
                     >
                       <button
                         type="button"
-                        className="overflow-hidden font-merriweather w-40 px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                        className="overflow-hidden font-merriweather w-40 px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec hover:text-black rounded-3xl"
                       >
                         Read More
                       </button>

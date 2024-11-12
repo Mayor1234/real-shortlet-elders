@@ -22,6 +22,15 @@ export default {
         garamond: ['EB Garamond', 'serif'],
         Lora: ['EB+Lora', 'sans-serif'],
       },
+      keyframes: {
+        'translate-x-loop': {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(0.75rem)' }, // 0.75rem = translate-x-3
+        },
+      },
+      animation: {
+        'translate-x-loop': 'translate-x-loop 1s ease-in-out infinite',
+      },
     },
   },
   plugins: [],

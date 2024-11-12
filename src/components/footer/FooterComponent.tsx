@@ -1,15 +1,16 @@
 import { FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="relative inset-0 z-10 bg-[url('/contact_footer.jpeg')] h-[50vh] w-screen lg:h-[600px] bg-no-repeat bg-cover bg-center">
+    <footer className="relative inset-0 z-10 bg-[url('/contact_footer.jpeg')] h-[85vh] w-screen lg:h-[500px] bg-no-repeat bg-cover bg-center">
       <div className="absolute z-10 inset-0 bg-black opacity-60"></div>
-      <div className="max-w-6xl mx-auto relative inset-0 z-20 px-5 h-full font-normal text-white p-10 flex justify-center gap-5 flex-col items-center lg:gap-8 lg:px-0 leading-loose">
-        <div className="w-fit max-w-3xl text-white rounded-lg p-8 flex flex-col space-x-4 items-center justify-center">
-          <p className="text-3xl mb-10 font-garamond tracking-wide font-medium ">
-            CONTACT US
-          </p>
-          <div className="overflow-hidden flex flex-col w-full">
+      <div className="max-w-6xl mx-auto relative inset-0 z-20 px-5 h-full font-normal text-white p-10 flex justify-between gap-5 items-center lg:gap-8 lg:px-0 leading-loose">
+        <div className="w-full text-white rounded-lg flex flex-col items-center justify-between lg:gap-0 lg:flex-row">
+          <div className="overflow-hidden pb-10 flex flex-col justify-center lg:justify-start w-full lg:w-[50%] lg:pb-0 lg:border-r-2 lg:border-pry/30">
+            <p className="text-2xl mb-10 font-garamond tracking-wide font-medium text-center lg:text-start lg:text-3xl ">
+              CONTACT US
+            </p>
             <div className="flex w-full gap-5 lg:gap-10 mb-5">
               <p className="w-20 lg:w-28 text-base lg:text-2xl font-medium">
                 Email:
@@ -37,6 +38,40 @@ const Footer = () => {
               >
                 <FaInstagram className="text-white" />
               </p>
+            </div>
+          </div>
+          <div className="w-full px-0 lg:w-[50%] lg:px-10 self-start">
+            <div className="flex flex-col gap-5 justify-between lg:flex-row w-full">
+              <div className="leading-loose w-full">
+                <h2 className="font-semibold text-xl pb-2  lg:pb-3 lg:text-2xl font-garamond">
+                  Company
+                </h2>
+                <Link to={'/faq'}>
+                  <p className="cursor-pointer capitalize text-pry hover:underline">
+                    FAQs
+                  </p>
+                </Link>
+              </div>
+              <div className="leading-loose w-full">
+                <h2 className="font-semibold text-xl pb-2 lg:pb-3 lg:text-2xl font-garamond">
+                  Legal
+                </h2>
+                <Link to={'/privacy-policy'}>
+                  <p className="cursor-pointer capitalize text-pry hover:underline">
+                    Privacy Policy
+                  </p>
+                </Link>
+              </div>
+              <div className="leading-loose w-full">
+                <h2 className="font-semibold text-xl pb-2 lg:pb-3 lg:text-2xl font-garamond">
+                  Explore
+                </h2>
+                <Link to={'/why-choose-us'}>
+                  <p className="cursor-pointer capitalize text-pry hover:underline">
+                    Why Shortlet Elders
+                  </p>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

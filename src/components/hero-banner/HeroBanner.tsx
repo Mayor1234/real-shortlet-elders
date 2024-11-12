@@ -19,7 +19,7 @@ const HeroBanner = () => {
             </p>
           </AnimatedSection>
           <button
-            className="overflow-hidden font-merriweather font-medium text-lg px-5 py-3 lg:px-6 text-darkLight bg-pry rounded-sm self-center lg:text-xl lg:font-semibold lg:self-start"
+            className="overflow-hidden font-merriweather font-medium text-lg px-5 py-3 lg:px-6 text-darkLight bg-pry hover:bg-sec transition-all transform duration-500 ease-in-out hover:text-black rounded-sm self-center lg:text-xl lg:font-semibold lg:self-start"
             onClick={handleRedirect}
           >
             Talk to our team

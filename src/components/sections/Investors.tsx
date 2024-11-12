@@ -10,7 +10,7 @@ const Investors = () => {
 
   return (
     <div className="bg-[#fff]">
-      <div className="max-w-6xl mx-auto py-10 lg:py-16 ">
+      <div className="max-w-6xl mx-auto py-10 lg:py-16 font-Montserrat">
         <div className="flex flex-col px-5 justify-between h-full overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
           <div className="w-full lg:w-[55%] pb-10 lg:pb-0">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
@@ -45,7 +45,7 @@ const Investors = () => {
               </div>
               <button
                 type="button"
-                className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec transition-all transform duration-500 ease-in-out hover:text-black rounded-3xl"
                 onClick={handleRedirect}
               >
                 Get Started
@@ -60,7 +60,7 @@ const Investors = () => {
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[250px] lg:h-[360px] rounded-md"
+                  className="w-full h-[250px] lg:h-[360px] rounded-xl"
                 />
               </figure>
             </AnimatedSection>

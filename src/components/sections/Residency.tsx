@@ -1,16 +1,15 @@
 import AnimatedSection from '../shared/AnimateSection';
 
 const Residency = () => {
-  const handleRedirect = () => {
-    window.open('https://wa.me/2347067826403', '_blank', 'noopener,noreferrer');
-  };
   return (
     <div>
       <div className="bg-[#fff]">
         <div className="max-w-6xl mx-auto py-10 lg:py-16 ">
           <div className="flex flex-col px-5 justify-between items-center h-full lg:h-auto overflow-hidden lg:flex-row lg:px-0 lg:gap-10">
             <div className="flex-1 pb-10 lg:pb-0">
-              <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
+              <AnimatedSection
+                direction={{ initial_x: 0, initial_y: 50, duration: 0.7 }}
+              >
                 <div className="flex flex-col w-full">
                   <p className="text-2xl font-garamond font-medium leading-tight text-gray-900 tracking-wide pb-5">
                     Residency <br />
@@ -38,12 +37,6 @@ const Residency = () => {
                       the demand for space.
                     </p>
                   </div>
-                  <button
-                    className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry self-center rounded-3xl"
-                    onClick={handleRedirect}
-                  >
-                    Talk to our team
-                  </button>
                 </div>
               </AnimatedSection>
             </div>

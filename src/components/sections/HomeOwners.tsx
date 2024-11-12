@@ -1,4 +1,5 @@
 import AnimatedSection from '../shared/AnimateSection';
+
 import SectionsHeading from '../shared/SectionsHeading';
 import homeOwner from '/home_owner.jpeg';
 
@@ -73,7 +74,7 @@ const HomeOwners = () => {
                 </div>
                 <button
                   type="button"
-                  className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry rounded-3xl"
+                  className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec transition-all transform duration-500 ease-in-out hover:text-black rounded-3xl"
                   onClick={handleRedirect}
                 >
                   Register your home
@@ -90,7 +91,7 @@ const HomeOwners = () => {
                     alt="invest"
                     width={100}
                     height={100}
-                    className="w-full h-[250px] lg:h-[360px] rounded-md"
+                    className="w-full h-[250px] lg:h-[360px] rounded-xl"
                   />
                 </figure>
               </AnimatedSection>

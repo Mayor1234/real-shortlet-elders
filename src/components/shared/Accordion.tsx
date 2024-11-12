@@ -9,19 +9,19 @@ const Accordion = ({ title, children }: Prop) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-3 border-b border-gray-300">
+    <div className="border-b border-gray-200">
       <button
-        className="flex justify-between items-center py-2 w-full"
+        className="flex justify-between items-center py-3 w-full"
         onClick={() => setAccordionOpen(!accordionOpen)}
       >
         <span
           className={`${
-            accordionOpen && 'text-pry'
-          } tracking-wide text-lg text-start`}
+            accordionOpen && 'text-gray-800'
+          } text-xl font-medium text-start pr-5`}
         >
           {title}
         </span>
-        <div className="transition duration-200 ease-out">
+        <div className="transition-transform transform delay-300 duration-500 ease-in-out">
           {accordionOpen ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ const Accordion = ({ title, children }: Prop) => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="size-6 text-pry"
+              className="size-6 text-gray-700"
             >
               <path
                 strokeLinecap="round"
@@ -56,13 +56,15 @@ const Accordion = ({ title, children }: Prop) => {
         </div>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out  text-sm ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out ${
           accordionOpen
             ? 'grid-rows-[1fr] opacity-100'
             : 'grid-rows-[0fr] opacity-0'
         }`}
       >
-        <div className="overflow-hidden text-sm">{children}</div>
+        <div className="overflow-hidden text-gray-800 max-w-4xl mr-10">
+          {children}
+        </div>
       </div>
     </div>
   );

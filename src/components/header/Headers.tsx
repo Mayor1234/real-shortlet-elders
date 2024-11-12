@@ -1,14 +1,17 @@
 import { useEffect, useState } from 'react';
 
 import Logo1 from '../../assets/logo/shortletlogo.png';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
 
-import { Link } from 'react-scroll';
 import { motion, AnimatePresence, useCycle } from 'framer-motion';
 import { menuItems } from '../constants';
 
 const Header = () => {
   const [navScroll, setNavScroll] = useState(false);
   const [modalOpen, setModalOpen] = useCycle(false, true);
+
+  const navigate = useNavigate();
 
   const changeScroll = () => {
     if (window.scrollY >= 80) {
@@ -33,8 +36,8 @@ const Header = () => {
     visible: {
       y: 0,
       transition: {
-        type: 'tween', // Set transition type to 'tween'
-        duration: 0.3, // Specify duration
+        type: 'tween',
+        duration: 0.3,
       },
     },
     exit: {
@@ -54,7 +57,7 @@ const Header = () => {
       y: 0,
       transition: {
         duration: 0.5,
-        ease: 'easeOut', // Add ease-out easing function
+        ease: 'easeOut',
       },
     },
     exit: {
@@ -62,7 +65,7 @@ const Header = () => {
       y: '50%',
       transition: {
         duration: 0.1,
-        ease: 'easeOut', // Add ease-out easing function
+        ease: 'easeOut',
       },
     },
   };
@@ -84,8 +87,12 @@ const Header = () => {
   };
 
   const handleClick = (url: string) => {
-    if (url !== 'https://flutterwave.com/pay/1vd6dso7c3yn') return;
-    window.open(url, '_blank', 'noopener,noreferrer');
+    if (url === 'https://flutterwave.com/pay/1vd6dso7c3yn') {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    } else if (url === 'home') {
+      navigate('/home');
+    }
+    return;
   };
 
   return (
@@ -99,7 +106,7 @@ const Header = () => {
           <nav className="hidden md:flex gap-20">
             <ul className="w-full flex items-center justify-between space-x-8">
               {menuItems.map((menu, i) => (
-                <Link
+                <ScrollLink
                   to={menu.url}
                   smooth={true}
                   duration={800}
@@ -108,12 +115,12 @@ const Header = () => {
                   onClick={() => handleClick(menu.url)}
                 >
                   {menu.title}
-                </Link>
+                </ScrollLink>
               ))}
             </ul>
           </nav>
-          <div className="text-white h-full overflow-hidden">
-            <Link to={'/'}>
+          <div className="z-50 text-white h-full overflow-hidden cursor-pointer">
+            <RouterLink to={'/home'}>
               <img
                 src={Logo1}
                 alt="logo"
@@ -121,7 +128,7 @@ const Header = () => {
                 height={100}
                 className="h-20 w-20 object-cover object-center"
               />
-            </Link>
+            </RouterLink>
           </div>
           <div className="inset-0 flex w-full h-screen items-center justify-center flex-col lg:hidden">
             <div
@@ -171,14 +178,14 @@ const Header = () => {
                 >
                   <nav className="w-full h-[80%]">
                     <motion.ul
-                      className="flex flex-col gap-10 items-start justify-center h-full w-full px-10"
+                      className="flex flex-col gap-10 items-start justify-center h-full w-full px-8"
                       variants={navLinksVariants}
                       initial="hidden"
                       animate="visible"
                       exit="exit"
                     >
                       {menuItems.map((menu, i) => (
-                        <Link
+                        <ScrollLink
                           to={menu.url}
                           smooth={true}
                           duration={800}
@@ -189,12 +196,12 @@ const Header = () => {
                         >
                           <motion.li
                             key={i}
-                            className="w-full text-lg text-pry py-2 px-6 hover:text-sec cursor-pointer text-start capitalize"
+                            className="w-full text-lg text-pry py-2 hover:text-sec cursor-pointer text-start capitalize"
                             variants={linkItemVariants}
                           >
                             {menu.title}
                           </motion.li>
-                        </Link>
+                        </ScrollLink>
                       ))}
                     </motion.ul>
                   </nav>

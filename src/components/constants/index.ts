@@ -32,3 +32,21 @@ export const footerLinks = [
     path: 'terms_of_use',
   },
 ];
+
+export const ourTeam = [
+  {
+    name: 'John Ottoh',
+    title: 'Investment Advisor',
+    img: '/john.jpg',
+  },
+  {
+    name: 'Antoine-Djoyi O.',
+    title: 'Finance',
+    img: '/Antoine.jpeg',
+  },
+  {
+    name: 'Epere augustine',
+    title: 'Publicist',
+    img: '/Epere.jpg',
+  },
+];

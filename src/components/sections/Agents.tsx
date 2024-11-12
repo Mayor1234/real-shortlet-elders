@@ -19,7 +19,7 @@ const Agents = () => {
                   alt="invest"
                   width={100}
                   height={100}
-                  className="w-full h-[250px] lg:h-[360px] rounded-md"
+                  className="w-full h-[250px] lg:h-[360px] rounded-xl"
                 />
               </figure>
             </AnimatedSection>
@@ -46,7 +46,7 @@ const Agents = () => {
                 </div>
                 <button
                   type="button"
-                  className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry self-end rounded-3xl"
+                  className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec transition-all transform duration-500 ease-in-out hover:text-black self-end rounded-3xl"
                   onClick={handleRedirect}
                 >
                   Agent Referrals
