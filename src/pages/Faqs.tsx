@@ -40,7 +40,7 @@ const Faqs = () => {
             </h2>
             <div className="w-full h-full mb-5 lg:overflow-y-auto lg:mb-0">
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.5 }}
               >
                 <Accordion
                   title={'What is the structure of the investment scheme?'}
@@ -67,7 +67,7 @@ const Faqs = () => {
               </AnimatedSection>
 
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.6 }}
               >
                 <Accordion
                   title={
@@ -83,7 +83,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.7 }}
               >
                 <Accordion title={'What is the investment term and duration?'}>
                   <p className="w-full  leading-relaxed pb-4 pt-2">
@@ -97,7 +97,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.7 }}
               >
                 <Accordion
                   title={
@@ -113,7 +113,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.5 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.8 }}
               >
                 <Accordion title={'What are the a ssociated risks?'}>
                   <p className="w-full  leading-relaxed pb-4 pt-2">
@@ -137,7 +137,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.8 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.8 }}
               >
                 <Accordion
                   title={'How are returns calculated and distributed?'}
@@ -153,7 +153,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.9 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.9 }}
               >
                 <Accordion
                   title={
@@ -180,7 +180,7 @@ const Faqs = () => {
                 </Accordion>
               </AnimatedSection>
               <AnimatedSection
-                direction={{ initial_x: 0, initial_y: 0, duration: 0.9 }}
+                direction={{ initial_x: -50, initial_y: 0, duration: 0.9 }}
               >
                 <Accordion
                   title={
