@@ -44,7 +44,7 @@ const Privacy = () => {
               </li>
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 How We Use Your Information
-                <ul className="list-disc list-outside ms-5 flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
+                <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
                     {' '}
                     To Process Investments: We use your information to manage
@@ -67,7 +67,7 @@ const Privacy = () => {
               </li>
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 Information Sharing
-                <ul className="list-disc list-outside ms-5 flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
+                <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
                     {' '}
                     With Authorized Personnel: Access to your information is
@@ -101,7 +101,7 @@ const Privacy = () => {
               </li>
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 Your Rights
-                <ul className="list-disc list-outside ms-5 flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
+                <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
                     {' '}
                     Access: You may request to view the information we hold
@@ -123,7 +123,7 @@ const Privacy = () => {
               </li>
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 Cookies and Tracking
-                <ul className="list-disc list-outside ms-5 flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
+                <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
                     We may use cookies and tracking tools to improve your
                     experience on our platform. You can manage cookie
@@ -133,7 +133,7 @@ const Privacy = () => {
               </li>
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 Policy Updates
-                <ul className="list-disc list-outside ms-5 flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
+                <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
                     This Privacy Policy may be updated periodically. We will
                     notify users of significant changes via email or on our
@@ -143,7 +143,7 @@ const Privacy = () => {
               </li>
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 Contact Information
-                <ul className="list-disc list-outside ms-5 flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
+                <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
                     For questions or concerns regarding our privacy practices,
                     please contact us at{' '}
