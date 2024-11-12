@@ -9,7 +9,7 @@ const JoinCommunity = () => {
         <div className="relative text-white z-30 py-5 lg:py-0">
           <div className="mb-20 lg:mb-10">
             <h2 className="mb-10 font-garamond text-xl lg:text-3xl">
-              Join Our 100k + Elders Shortlet Community
+              Join our community of 1,000+ Shortlet Elders!
             </h2>
             <p className="max-w-sm leading-relaxed font-Montserrat">
               Be a part of the fast growing community designed for

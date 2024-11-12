@@ -41,8 +41,8 @@ export const ourTeam = [
   },
   {
     name: 'Antoine-Djoyi O.',
-    title: 'Finance',
-    img: '/Antoine.jpeg',
+    title: 'Operation Manager',
+    img: '/Mully.jpg',
   },
   {
     name: 'Epere augustine',

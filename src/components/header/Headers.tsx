@@ -141,22 +141,22 @@ const Header = () => {
           <div className="flex w-full items-center justify-center flex-col lg:hidden">
             <button
               onClick={() => setModalOpen()}
-              className="flex flex-col items-center justify-center w-10 h-10 focus:outline-none absolute right-5 top-0 translate-y-1/2 z-50 cursor-pointer"
+              className="flex flex-col items-center justify-center w-10 h-10 focus:outline-none absolute right-5 top-0 translate-y-5 z-50 cursor-pointer"
               aria-label="Toggle Menu"
             >
               <span
-                className={`absolute block w-8 h-0.5 bg-pry transition-transform duration-300 ease-in-out origin-center ${
+                className={`absolute block w-6 h-0.5 bg-pry transition-transform duration-300 ease-in-out origin-center ${
                   modalOpen ? '-rotate-45' : 'translate-y-1.5'
                 }`}
               ></span>
               <span
-                className={`absolute block w-8 h-0.5 bg-pry transition-opacity duration-300 ${
+                className={`absolute block w-6 h-0.5 bg-pry transition-opacity duration-300 ${
                   modalOpen ? 'opacity-0' : ' '
                 }`}
               ></span>
               <span
-                className={`absolute block w-8 h-0.5 bg-pry transition-transform duration-300 ease-in-out origin-center ${
-                  modalOpen ? 'rotate-45 w-8' : '-translate-y-1.5'
+                className={`absolute block w-6 h-0.5 bg-pry transition-transform duration-300 ease-in-out origin-center ${
+                  modalOpen ? 'rotate-45' : '-translate-y-1.5'
                 }`}
               ></span>
             </button>

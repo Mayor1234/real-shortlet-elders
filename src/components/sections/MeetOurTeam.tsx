@@ -9,7 +9,7 @@ const MeetOurTeam = () => {
   return (
     <div className="max-w-6xl mx-auto py-10 px-5 lg:py-16 lg:px-0">
       <div className="flex flex-col lg:flex-row w-full h-auto lg:h-fit">
-        <div className="flex flex-col w-full lg:w-[30%] pb-10 lg:pb-0">
+        <div className="flex flex-col w-full lg:w-[25%] pb-10 lg:pb-0">
           <p className="text-3xl text-gray-800 font-medium font-merriweather leading-tight text-center pb-5 lg:text-start lg:text-5xl">
             <span className="">Meet our</span>
             <span className="italic font-merriweather font-normal text-pry pl-2 lg:block lg:pl-0">
@@ -31,7 +31,7 @@ const MeetOurTeam = () => {
             </button>
           </div>
         </div>
-        <div className="w-full lg:w-[70%] lg:h-full">
+        <div className="w-full lg:w-[75%] lg:h-full">
           <AnimatedSection
             direction={{ initial_x: 0, initial_y: 50, duration: 0.5 }}
           >
@@ -48,7 +48,7 @@ const MeetOurTeam = () => {
                         alt="john"
                         width={100}
                         height={100}
-                        className="w-full object-cover h-60 lg:w-72 lg:h-72 rounded-t-xl"
+                        className="w-full object-cover h-72 lg:w-72 lg:h-96 rounded-t-xl"
                       />
                     </figure>
                   </div>
