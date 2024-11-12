@@ -21,10 +21,10 @@ const Privacy = () => {
             </p>
           </div>
           <div>
-            <ul className="list-decimal  list-outside ms-5 flex flex-col gap-4 leading-normal">
+            <ul className="list-decimal list-outside ms-5 px-5 flex flex-col gap-4 leading-norma lg:px-0">
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 Information We Collect
-                <ul className="list-disc list-outside ms-5 flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
+                <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
                     {' '}
                     Personal Information: Name, contact details, identification
@@ -158,7 +158,7 @@ const Privacy = () => {
               </li>
             </ul>
           </div>
-          <div className="py-10 text-gray-800 text-lg font-Montserrat">
+          <div className="my-10 text-gray-900 text-lg font-Montserrat">
             <p>
               By participating in the Shortlet Elders December Investment
               Scheme, you agree to this Privacy Policy and the ways we handle

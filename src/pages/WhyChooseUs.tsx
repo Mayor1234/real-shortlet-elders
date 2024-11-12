@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
             </h2>
           </div>
           <div>
-            <ul className="list-decimal  list-outside ms-5 flex flex-col gap-4 leading-normal">
+            <ul className="list-decimal list-outside ms-5 px-5 flex flex-col gap-4 leading-normal lg:px-0">
               <li className="pb-5 text-xl font-medium leading-normal font-merriweather">
                 High Return Potential
                 <ul className="list-outside flex flex-col gap-4 leading-normal pt-2 text-base font-Montserrat font-normal">

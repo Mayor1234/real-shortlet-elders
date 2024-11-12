@@ -131,46 +131,31 @@ const Header = () => {
             </RouterLink>
           </div>
           <div className="flex w-full items-center justify-center flex-col lg:hidden">
-            <div
-              className="absolute right-5 top-0 translate-y-1/2 z-50 cursor-pointer"
+            <button
               onClick={() => setModalOpen()}
+              className="flex flex-col items-center justify-center w-10 h-10 focus:outline-none absolute right-5 top-0 translate-y-1/2 z-50 cursor-pointer"
+              aria-label="Toggle Menu"
             >
-              {modalOpen ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-10 border border-white p-2 rounded-md text-white"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18 18 6M6 6l12 12"
-                  />
-                </svg>
-              ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-10 border border-pry p-2 rounded-md text-pry"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  />
-                </svg>
-              )}
-            </div>
+              <span
+                className={`absolute block w-8 h-0.5 bg-pry transition-transform duration-300 ease-in-out origin-center ${
+                  modalOpen ? '-rotate-45' : 'translate-y-1.5'
+                }`}
+              ></span>
+              <span
+                className={`absolute block w-8 h-0.5 bg-pry transition-opacity duration-300 ${
+                  modalOpen ? 'opacity-0' : ' '
+                }`}
+              ></span>
+              <span
+                className={`absolute block w-8 h-0.5 bg-pry transition-transform duration-300 ease-in-out origin-center ${
+                  modalOpen ? 'rotate-45 w-8' : '-translate-y-1.5'
+                }`}
+              ></span>
+            </button>
             <AnimatePresence>
               {modalOpen && (
                 <motion.div
-                  className="absolute inset-0 z-40 bg-[#000] h-screen w-full"
+                  className="absolute inset-0 z-40 bg-[#000] py-20 h-screen w-full"
                   variants={modalVariants}
                   initial="hidden"
                   animate="visible"
