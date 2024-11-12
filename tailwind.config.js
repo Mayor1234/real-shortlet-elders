@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      container: {
+        center: true,
+        margin: '2rem',
+      },
       colors: {
         pry: '#fcba00',
         sec: '#ffa500',

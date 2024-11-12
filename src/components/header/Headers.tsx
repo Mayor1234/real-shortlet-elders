@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import Logo1 from '../../assets/logo/shortletlogo.png';
 import { Link as ScrollLink } from 'react-scroll';
-import { Link as RouterLink, useNavigate } from 'react-router-dom';
+import { Link as RouterLink, useNavigate, useLocation } from 'react-router-dom';
 
 import { motion, AnimatePresence, useCycle } from 'framer-motion';
 import { menuItems } from '../constants';
@@ -12,6 +12,7 @@ const Header = () => {
   const [modalOpen, setModalOpen] = useCycle(false, true);
 
   const navigate = useNavigate();
+  const location = useLocation();
 
   const changeScroll = () => {
     if (window.scrollY >= 80) {
@@ -86,6 +87,13 @@ const Header = () => {
     },
   };
 
+  const filteredMenuItems =
+    location.pathname === '/home'
+      ? menuItems
+      : menuItems.filter(
+          (item) => item.url !== 'about' && item.url !== 'investment'
+        );
+
   const handleClick = (url: string) => {
     if (url === 'https://flutterwave.com/pay/1vd6dso7c3yn') {
       window.open(url, '_blank', 'noopener,noreferrer');
@@ -105,7 +113,7 @@ const Header = () => {
         <div className="flex justify-between items-center w-full z-50 h-20 border-none text-pry">
           <nav className="hidden lg:flex gap-20">
             <ul className="w-full flex items-center justify-between space-x-8">
-              {menuItems.map((menu, i) => (
+              {filteredMenuItems.map((menu, i) => (
                 <ScrollLink
                   to={menu.url}
                   smooth={true}
@@ -169,7 +177,7 @@ const Header = () => {
                       animate="visible"
                       exit="exit"
                     >
-                      {menuItems.map((menu, i) => (
+                      {filteredMenuItems.map((menu, i) => (
                         <ScrollLink
                           to={menu.url}
                           smooth={true}

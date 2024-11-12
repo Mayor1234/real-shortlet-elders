@@ -25,6 +25,40 @@ const InvestmentScheme = () => {
                 <AnimatedSection
                   direction={{ initial_x: 0, initial_y: 50, duration: 0.7 }}
                 >
+                  <div className="relative py-12 px-8 bg-darkLight h-auto text-light rounded-md flex flex-col lg:h-96">
+                    <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
+                      INVESTOR
+                    </h2>
+                    <p className="text-sec font-garamond text-lg font-bold text-center pb-5">
+                      Earn between 10% - 15% (early birds) on your capital
+                      investment
+                    </p>
+                    <p className="text-center pb-5">
+                      With investing as low as N100,000 Naira or its currency
+                      equivalent, earn a top up with our short-term investment
+                      scheme for this december.
+                    </p>
+                    <Link
+                      to="investor"
+                      spy={true}
+                      smooth={true}
+                      duration={800}
+                      className="self-center absolute -bottom-6"
+                    >
+                      <button
+                        type="button"
+                        className="overflow-hidden font-merriweather w-40 px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec hover:text-black rounded-3xl"
+                      >
+                        Read More
+                      </button>
+                    </Link>
+                  </div>
+                </AnimatedSection>
+              </div>
+              <div className="flex-1">
+                <AnimatedSection
+                  direction={{ initial_x: 0, initial_y: 50, duration: 0.9 }}
+                >
                   <div className="relative py-12 px-8 bg-darkLight text-light h-auto rounded-md flex flex-col lg:h-96">
                     <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
                       HOME OWNER
@@ -79,38 +113,6 @@ const InvestmentScheme = () => {
                       <button
                         type="button"
                         className="overflow-hidden font-merriweather  w-40 px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec hover:text-black rounded-3xl"
-                      >
-                        Read More
-                      </button>
-                    </Link>
-                  </div>
-                </AnimatedSection>
-              </div>
-              <div className="flex-1">
-                <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
-                  <div className="relative py-12 px-8 bg-darkLight h-auto text-light rounded-md flex flex-col lg:h-96">
-                    <h2 className="text-pry font-merriweather text-lg text-center font-medium pb-4">
-                      INVESTOR
-                    </h2>
-                    <p className="text-sec font-garamond text-lg font-bold text-center pb-5">
-                      Earn between 10% - 15% (early birds) on your capital
-                      investment
-                    </p>
-                    <p className="text-center pb-5">
-                      With investing as low as N100,000 Naira or its currency
-                      equivalent, earn a top up with our short-term investment
-                      scheme for this december.
-                    </p>
-                    <Link
-                      to="investor"
-                      spy={true}
-                      smooth={true}
-                      duration={800}
-                      className="self-center absolute -bottom-6"
-                    >
-                      <button
-                        type="button"
-                        className="overflow-hidden font-merriweather w-40 px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec hover:text-black rounded-3xl"
                       >
                         Read More
                       </button>

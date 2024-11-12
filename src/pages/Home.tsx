@@ -18,14 +18,14 @@ const Home = () => {
           <Element name="investment">
             <InvestmentScheme />
           </Element>
+          <Element name="investor">
+            <Investors />
+          </Element>
           <Element name="home-owner">
             <HomeOwners />
           </Element>
           <Element name="agent">
             <Agents />
-          </Element>
-          <Element name="investor">
-            <Investors />
           </Element>
           <Residency />
           <Element name="about">
