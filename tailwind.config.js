@@ -18,6 +18,8 @@ export default {
         sec: '#ffa500',
         dark: '#0d1013',
         darkLight: '#292829',
+        brown: '#564e42',
+        light: '#fff',
       },
       backgroundImage: {
         'pie-chart':
