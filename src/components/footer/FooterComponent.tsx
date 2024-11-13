@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="relative inset-0 z-10 bg-[url('/contact_footer.jpeg')] h-[85vh] w-screen lg:h-[500px] bg-no-repeat bg-cover bg-center">
       <div className="absolute z-10 inset-0 bg-black opacity-60"></div>
-      <div className="max-w-6xl mx-auto relative inset-0 z-20 px-5 h-full font-normal text-white p-10 flex justify-between gap-5 items-center lg:gap-8 lg:px-0 leading-loose">
+      <div className="container mx-auto relative inset-0 z-20 px-5 h-full font-normal text-white p-10 flex justify-between gap-5 items-center lg:gap-8 lg:px-0 leading-loose">
         <div className="w-full text-white rounded-lg flex flex-col items-center justify-between lg:gap-0 lg:flex-row">
           <div className="overflow-hidden pb-10 flex flex-col justify-center lg:justify-start w-full lg:w-[50%] lg:pb-0 lg:border-r-2 lg:border-pry/30">
             <p className="text-2xl mb-10 font-garamond tracking-wide font-medium text-center lg:text-start lg:text-3xl ">

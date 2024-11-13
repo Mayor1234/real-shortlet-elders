@@ -109,7 +109,7 @@ const Header = () => {
         navScroll ? 'bg-[#000000]/90 bg-blend-overlay' : 'bg-transparent'
       } w-full sticky top-0 h-20 z-50`}
     >
-      <div className="max-w-6xl mx-auto px-5 lg:px-0">
+      <div className="container mx-auto px-5 lg:px-0">
         <div className="flex justify-between items-center w-full z-50 h-20 border-none text-pry">
           <nav className="hidden lg:flex gap-20">
             <ul className="w-full flex items-center justify-between space-x-8">

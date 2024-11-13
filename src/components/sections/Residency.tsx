@@ -4,7 +4,7 @@ const Residency = () => {
   return (
     <div>
       <div className="bg-[#fff]">
-        <div className="max-w-6xl mx-auto py-10 lg:py-16 ">
+        <div className="container mx-auto py-10 lg:py-16 ">
           <div className="flex flex-col px-5 justify-between items-center h-full lg:h-auto overflow-hidden lg:flex-row lg:px-0 lg:gap-10">
             <div className="flex-1 pb-10 lg:pb-0">
               <AnimatedSection

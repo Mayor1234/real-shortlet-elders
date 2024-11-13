@@ -3,6 +3,16 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      container: {
+        center: true, // Centers the container by default
+        screens: {
+          sm: '100%', // Full width on small screens
+          md: '640px', // Custom width for medium screens
+          lg: '800px', // Custom width for large screens
+          xl: '1024px', // Custom width for extra-large screens
+          '2xl': '1200px', // Custom width for 2xl screens
+        },
+      },
       colors: {
         pry: '#fcba00',
         sec: '#ffa500',

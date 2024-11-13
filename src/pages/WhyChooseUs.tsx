@@ -4,7 +4,7 @@ const WhyChooseUs = () => {
   return (
     <div>
       <PageBanner title={'Why Shortlet Elders?'} />
-      <div className="bg-white max-w-6xl mx-auto py-10 lg:py-16">
+      <div className="bg-white container mx-auto py-10 lg:py-16">
         <div className="max-w-5xl mx-auto px-5 lg:px-0 leading-6">
           <div className="mb-10">
             <h2 className="text-gray-900 text-3xl font-garamond font-bold lg:text-4xl">

@@ -6,7 +6,7 @@ const Faqs = () => {
   return (
     <div>
       <PageBanner title={'Frequently Asked Questions'} />
-      <div className="max-w-6xl mx-auto py-10 lg:py-20 font-Montserrat px-5 lg:px-0">
+      <div className="container mx-auto py-10 lg:py-20 font-Montserrat px-5 lg:px-0">
         <div className="flex justify-center flex-col-reverse lg:justify-between  lg:flex-row w-full">
           <div className="w-full lg:w-[25%] flex justify-center items-center flex-col lg:justify-start lg:items-start">
             <p className="text-4xl font-medium font-garamond mb-5">

@@ -4,7 +4,7 @@ const JoinCommunity = () => {
   const [agentEnter, setAgentEnter] = useState(false);
   const [InvestorEnter, setInvestorEnter] = useState(false);
   return (
-    <div className="max-w-6xl mx-auto py-10 px-5 lg:py-16 lg:px-0">
+    <div className="container mx-auto py-10 px-5 lg:py-16 lg:px-0">
       <div className="relative bg-[url('/comm.jpeg')] bg-blend-overlay bg-neutral-700 bg-top h-[900px] lg:bg-cover lg:bg-center lg:h-[600px] w-full p-10 rounded-3xl">
         <div className="relative text-white z-30 py-5 lg:py-0">
           <div className="mb-20 lg:mb-10">
