@@ -27,7 +27,7 @@ const JoinCommunity = () => {
           <div className="flex flex-col justify-center items-center w-full lg:items-start lg:justify-start lg:flex-row gap-5">
             <button
               type="button"
-              className="font-merriweather border border-pry text-white py-3 px-6 rounded-3xl flex  items-center justify-center gap-2 w-52"
+              className="font-merriweather border border-pry text-pry py-3 px-6 rounded-3xl flex  items-center justify-center gap-2 w-52"
               onClick={() =>
                 window.open(
                   'https://chat.whatsapp.com/L5fyXJNTeGG5rfikAMalGN',
