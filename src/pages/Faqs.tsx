@@ -46,7 +46,7 @@ const Faqs = () => {
                   title={'What is the structure of the investment scheme?'}
                 >
                   <p className="w-full  leading-relaxed pb-4 pt-2">
-                    The structure of the
+                    The structure of the{' '}
                     <b>Shortlet Elders December Investment Scheme</b> is
                     designed to generate returns through short-term rental
                     income. By leveraging properties listed on our platform for
@@ -61,7 +61,7 @@ const Faqs = () => {
                     income, with profits distributed back to investors at the
                     end of the investment term. The scheme is structured to
                     optimize returns by focusing on strategic rental management,
-                    high- occupancy periods, and effective marketing.
+                    high-occupancy periods, and effective marketing.
                   </p>
                 </Accordion>
               </AnimatedSection>
@@ -91,8 +91,8 @@ const Faqs = () => {
                     <b>Shortlet Elders December Investment Scheme</b> is
                     short-term, focused specifically on the holiday rental
                     season. Investors are expected to participate by{' '}
-                    <b>November 15th</b>
-                    to target a <b>15% return by the end of December</b>.
+                    <b>November 15th</b> to target a{' '}
+                    <b>15% return by the end of December</b>.
                   </p>
                 </Accordion>
               </AnimatedSection>
@@ -115,7 +115,7 @@ const Faqs = () => {
               <AnimatedSection
                 direction={{ initial_x: -50, initial_y: 0, duration: 0.8 }}
               >
-                <Accordion title={'What are the a ssociated risks?'}>
+                <Accordion title={'What are the associated risks?'}>
                   <p className="w-full  leading-relaxed pb-4 pt-2">
                     The <b>Shortlet Elders December Investment Scheme</b>{' '}
                     carries certain risks that investors should consider just
@@ -161,7 +161,7 @@ const Faqs = () => {
                   }
                 >
                   <p className="w-full leading-relaxed pb-4 pt-2">
-                    The <b>15% return</b>for the
+                    The <b>15% return</b> for the{' '}
                     <b>Shortlet Elders December Investment Scheme</b> is a
                     guaranteed amount. While the scheme is structured to achieve
                     this target through high-demand short-term rentals, returns

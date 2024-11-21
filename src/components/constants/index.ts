@@ -41,7 +41,7 @@ export const ourTeam = [
   },
   {
     name: 'Antoine-Djoyi O.',
-    title: 'Operation Manager',
+    title: 'Operations Manager',
     img: '/Mully.jpg',
   },
   {
