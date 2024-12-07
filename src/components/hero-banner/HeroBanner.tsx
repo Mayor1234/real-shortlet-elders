@@ -4,6 +4,14 @@ const HeroBanner = () => {
   const handleRedirect = () => {
     window.open('https://wa.me/2347034578122', '_blank', 'noopener,noreferrer');
   };
+  const handleRedirectVote = () => {
+    window.open(
+      'https://linktr.ee/shortletelders',
+      '_blank',
+      'noopener,noreferrer'
+    );
+  };
+
   return (
     <div className="relative left-0 -mt-20 z-10 bg-[url('/hero_banner.jpeg')] h-[85vh]  w-screen  lg:h-[calc(100vh+80px)] bg-no-repeat bg-cover bg-right bg-blend-overlay bg-neutral-700 px-0">
       <div className="w-full container mx-auto">
@@ -18,12 +26,20 @@ const HeroBanner = () => {
               investments … This december is bound to be a financial bliss..
             </p>
           </AnimatedSection>
-          <button
-            className="overflow-hidden font-merriweather font-medium text-lg px-5 py-3 lg:px-6 text-darkLight bg-pry hover:bg-sec transition-all transform duration-500 ease-in-out hover:text-black rounded-sm self-center lg:text-xl lg:font-semibold lg:self-start"
-            onClick={handleRedirect}
-          >
-            Talk to our team
-          </button>
+          <div className="flex flex-col items-center justify-center lg:justify-start w-full gap-5 lg:flex-row">
+            <button
+              className="overflow-hidden font-merriweather font-medium text-lg px-5 py-3 lg:px-6 border border-pry text-darkLight bg-pry hover:bg-sec hover:border-sec transition-all transform duration-300 ease-in-out hover:text-black rounded-sm self-center lg:text-xl lg:font-semibold lg:self-start"
+              onClick={handleRedirect}
+            >
+              Talk to our team
+            </button>
+            <button
+              className="overflow-hidden font-merriweather font-medium text-lg px-5 py-3 lg:px-6 border border-pry text-pry bg-transparent hover:bg-sec hover:border-sec transition-all duration-300 ease-in-out hover:text-black rounded-sm self-center lg:text-xl lg:font-semibold lg:self-start"
+              onClick={handleRedirectVote}
+            >
+              Vote Shortlet Elders 2024
+            </button>
+          </div>
         </div>
       </div>
     </div>
