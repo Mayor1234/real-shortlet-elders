@@ -23,7 +23,7 @@ export default {
       },
       backgroundImage: {
         'pie-chart':
-          'conic-gradient( #5e4200 94.68deg 288deg, #fcba00 288deg 360deg)',
+          'conic-gradient( #fcba00 94.68deg 288deg,  #5e4200 288deg 360deg)',
       },
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif'],
