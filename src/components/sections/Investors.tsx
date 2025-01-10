@@ -5,43 +5,64 @@ import investors from '/investors.jpeg';
 
 const Investors = () => {
   const handleRedirect = () => {
-    window.open('https://tally.so/r/w8pGXY', '_blank', 'noopener,noreferrer');
+    // window.open('https://tally.so/r/w8pGXY', '_blank', 'noopener,noreferrer');
+    window.open('https://tally.so/r/3X1BbL', '_blank', 'noopener,noreferrer');
   };
 
   return (
     <div className="bg-[#fff]">
-      <div className="container mx-auto py-10 lg:py-16 font-Montserrat">
+      <div className="container mx-auto py-10 lg:py-14 font-Montserrat">
         <div className="flex flex-col px-5 justify-between h-full overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
           <div className="w-full lg:w-[55%] pb-10 lg:pb-0">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
               <SectionsHeading>INVESTORS</SectionsHeading>
-              <p className="text-2xl text-gray-900 font-garamond font-medium leading-tight pb-5 uppercase">
-                Earn returns on your <br /> investment ....
-              </p>
-              <div className="mb-8 text-gray-800 leading-loose">
+              <h2 className="text-xl text-gray-900 font-garamond font-medium leading-relaxed pb-5 uppercase">
+                Unlock 10% Returns On
+                <br /> Your Investment
+              </h2>
+              <div className="mb-8 text-gray-800 leading-relaxed">
                 <p className="pb-5">
-                  Investment is not limited to pro investors, entry level
-                  investors or individuals with savings, they would like to{' '}
-                  <strong>“Roll Over”</strong> can participate in the investment
-                  scheme and earn a minimum of 10% on their investment capital
-                  during the duration of the active investment period.
-                  <br />
-                  We require clarity on your investment interest and capital
-                  strength due to the diversity of the locations targeted for
-                  the execution of the scheme. Our minimum investment capital of
-                  N100,000 (One Hundred Thousand Naira) or its equivalent in any
-                  other currency.
-                  <br />
-                  <br />
-                  ** Early Birds earn 15% returns upon payout. Valid till
-                  November 15th, 2024
+                  This Valentine, let love and opportunity grow together! Our
+                  exclusive{' '}
+                  <strong className="font-merriweather">Valentine</strong>{' '}
+                  Special Investment Scheme offers an unparalleled chance to
+                  earn 10% guaranteed returns on your investment. Early
+                  investors who join before November 15, 2024, enjoy even better
+                  rewards with 15% returns upon payout.
                 </p>
                 <div>
+                  <p className="text-lg font-Montserrat text-gray-800 font-semibold pb-5">
+                    Why Invest with Us?
+                  </p>
+                  <ul className="list-disc list-outside pb-5 ml-5 flex flex-col gap-3">
+                    <li>
+                      Payout Dates: Returns will be disbursed between March 1st
+                      and 2nd, 2025.
+                    </li>
+                    <li>
+                      Open to All Investors: Whether you’re a seasoned pro or
+                      just starting your investment journey, this scheme is
+                      tailored for everyone.
+                    </li>
+                    <li>
+                      Flexible Options: Individuals with savings they’d like to
+                      “roll over” can also participate, starting with a minimum
+                      investment of ₦100,000 or its equivalent in other
+                      currencies.
+                    </li>
+                  </ul>
+                </div>
+                <div className="mb-5">
                   <p className="text-2xl font-garamond font-medium leading-tight pb-5 capitalize">
-                    Investment Options
+                    Investment Options & Locations
                   </p>
                   <InvestmentTable />
                 </div>
+                <em className="text-gray-800">
+                  We prioritize clarity on your investment interest and capital
+                  strength due to the diversity of the locations targeted for
+                  scheme execution.
+                </em>
               </div>
               <button
                 type="button"

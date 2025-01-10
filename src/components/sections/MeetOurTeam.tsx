@@ -3,11 +3,12 @@ import AnimatedSection from '../shared/AnimateSection';
 
 const MeetOurTeam = () => {
   const handleRedirect = () => {
-    window.open('https://wa.me/2347067826403', '_blank', 'noopener,noreferrer');
+    // window.open('https://wa.me/2347067826403', '_blank', 'noopener,noreferrer');
+    window.open('https://wa.me/2347034578122', '_blank', 'noopener,noreferrer');
   };
 
   return (
-    <div className="container mx-auto py-10 px-5 lg:py-16 lg:px-0">
+    <div className="container mx-auto py-10 px-5 lg:py-14 lg:px-0">
       <div className="flex flex-col lg:flex-row w-full h-auto lg:h-fit">
         <div className="flex flex-col w-full lg:w-[25%] pb-10 lg:pb-0">
           <p className="text-3xl text-gray-800 font-medium font-merriweather leading-tight text-center pb-5 lg:text-start lg:text-5xl">

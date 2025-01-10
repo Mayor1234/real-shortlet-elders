@@ -9,7 +9,7 @@ const Agents = () => {
 
   return (
     <div className="bg-[#fff]">
-      <div className="container mx-auto py-10 lg:py-16 ">
+      <div className="container mx-auto py-10 lg:py-14">
         <div className="flex flex-col-reverse px-5 justify-between h-full  overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
           <div className="w-full lg:w-[45%]">
             <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
@@ -28,20 +28,19 @@ const Agents = () => {
             <AnimatedSection direction={{ initial_x: 0, initial_y: 70 }}>
               <SectionsHeading>Agent Referrals</SectionsHeading>
               <div className="flex flex-col w-full ">
-                <p className="text-2xl text-gray-900 font-garamond font-medium leading-tight pb-5 uppercase">
-                  Earn <br /> commissions ....
+                <p className="text-xl text-gray-900 font-garamond font-medium leading-relaxed pb-5 uppercase">
+                  Earn commissions
                 </p>
-                <div className="mb-8 text-gray-800 leading-loose">
+                <div className="mb-8 text-gray-800 leading-relaxed">
                   <p className="">
-                    Earn by knowing someone who would be interested in the
-                    scheme. As an agent or non-agent, you get to earn as low as
-                    1% and as high as 5% by just referring the scheme to an
-                    investor or a homeowner. You earn additional income on other
-                    perks communicated to you specifically as an agent. We
-                    require you to reach out to your network of people or market
-                    the scheme to acquire both homeowners and investors. This
-                    would facilitate your commission earnings among other
-                    benefits.
+                    Whether you’re an agent or not, you can earn 1% to 5%
+                    commission by referring investors or homeowners to the
+                    scheme. Expand your income stream with additional perks
+                    tailored to agents.
+                    <br />
+                    <br />
+                    Simply reach out to your network or market the scheme to
+                    maximize your referral earnings.
                   </p>
                 </div>
                 <button
@@ -49,7 +48,7 @@ const Agents = () => {
                   className="overflow-hidden font-merriweather px-6 py-3 font-semibold text-darkLight bg-pry hover:bg-sec transition-all transform duration-500 ease-in-out hover:text-black self-end rounded-3xl"
                   onClick={handleRedirect}
                 >
-                  Agent Referrals
+                  Join as an Agent
                 </button>
               </div>
             </AnimatedSection>

@@ -4,7 +4,7 @@ import about from '/about.jpeg';
 
 const About = () => {
   return (
-    <div className="bg-white container mx-auto py-10 lg:py-16">
+    <div className="bg-white container mx-auto py-10 lg:py-14">
       <div className="flex flex-col-reverse px-5 justify-between h-full  overflow-hidden lg:flex-row lg:px-0 lg:gap-16">
         <div className="w-full lg:w-[45%]">
           <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
@@ -55,8 +55,10 @@ const About = () => {
                     </li>
                   </ul>
                   <br />
-                  Shortlet Elders is committed to enhancing investment value
-                  through community support and collaboration.
+                  <em>
+                    Shortlet Elders is committed to enhancing investment value
+                    through community support and collaboration.
+                  </em>
                 </p>
               </div>
             </div>
