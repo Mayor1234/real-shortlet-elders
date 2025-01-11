@@ -5,7 +5,7 @@ import homeOwner from '/home_owner.jpeg';
 
 const HomeOwners = () => {
   const handleRedirect = () => {
-    window.open('https://tally.so/r/wzQZQE', '_blank', 'noopener,noreferrer');
+    window.open('https://tally.so/r/mVv9ya', '_blank', 'noopener,noreferrer');
   };
 
   return (

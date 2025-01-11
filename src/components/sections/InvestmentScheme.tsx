@@ -30,8 +30,7 @@ const InvestmentScheme = () => {
                       INVESTOR
                     </h2>
                     <p className="text-sec font-garamond text-lg font-bold text-center pb-5">
-                      Earn between 10% - 15% (early birds) on your capital
-                      investment
+                      Earn between 10% (early birds) on your capital investment
                     </p>
                     <p className="text-center pb-5">
                       With investing as low as N100,000 Naira or its currency
@@ -101,8 +100,8 @@ const InvestmentScheme = () => {
                     <p className="text-center pb-5">
                       You don’t need to be an official real estate agent to earn
                       commissions on referrals. Refer a friend, home owner, or
-                      financial investor to the scheme and earn be between 1% to
-                      5% on your referrals.
+                      financial investor to the scheme and earn be between 2% on
+                      your referrals.
                     </p>
                     <Link
                       to="agent"

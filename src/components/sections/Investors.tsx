@@ -5,7 +5,6 @@ import investors from '/investors.jpeg';
 
 const Investors = () => {
   const handleRedirect = () => {
-    // window.open('https://tally.so/r/w8pGXY', '_blank', 'noopener,noreferrer');
     window.open('https://tally.so/r/3X1BbL', '_blank', 'noopener,noreferrer');
   };
 
@@ -27,7 +26,7 @@ const Investors = () => {
                   <strong className="font-merriweather">Valentine</strong>{' '}
                   Special Investment Scheme offers an unparalleled chance to
                   earn 10% guaranteed returns on your investment. Early
-                  investors who join before November 15, 2024, enjoy even better
+                  investors who join before February 14, 2025, enjoy even better
                   rewards with 15% returns upon payout.
                 </p>
                 <div>

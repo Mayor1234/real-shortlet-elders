@@ -4,7 +4,7 @@ import agents from '/agents.jpeg';
 
 const Agents = () => {
   const handleRedirect = () => {
-    window.open('https://tally.so/r/3EbLRo', '_blank', 'noopener,noreferrer');
+    window.open('https://tally.so/r/m6A1G5', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -33,10 +33,9 @@ const Agents = () => {
                 </p>
                 <div className="mb-8 text-gray-800 leading-relaxed">
                   <p className="">
-                    Whether you’re an agent or not, you can earn 1% to 5%
-                    commission by referring investors or homeowners to the
-                    scheme. Expand your income stream with additional perks
-                    tailored to agents.
+                    Whether you’re an agent or not, you can earn 2% commission
+                    by referring investors or homeowners to the scheme. Expand
+                    your income stream with additional perks tailored to agents.
                     <br />
                     <br />
                     Simply reach out to your network or market the scheme to

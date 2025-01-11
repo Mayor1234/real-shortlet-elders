@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
         <div className="max-w-5xl mx-auto px-5 lg:px-0 leading-6">
           <div className="mb-10">
             <h2 className="text-gray-900 text-3xl font-garamond font-bold lg:text-4xl">
-              Why Invest in the Shortlet Elders December Scheme?
+              Why Invest in the Shortlet Elders February Scheme?
             </h2>
           </div>
           <div>
@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
                   <li>
                     Earn attractive returns from 10-15% on your investment, with
                     structured payouts that maximize earnings in a short period
-                    in dec. The December scheme is designed to deliver returns
+                    in dec. The February scheme is designed to deliver returns
                     quickly, making it ideal for short-term gains.
                   </li>
                 </ul>
@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
                 <ul className="list-outside flex flex-col gap-4 leading-normal pt-2 text-base font-Montserrat font-normal">
                   <li>
                     Managed by a team of seasoned experts in the short-term
-                    rental market, the Shortlet Elders December Scheme is backed
+                    rental market, the Shortlet Elders February Scheme is backed
                     by knowledge and experience as our motto implies we are
                     elders in wisdom , integrity and experience hence we
                     carefully select and manage properties to optimize returns.
@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
                 Exclusive Benefits for Early Investors
                 <ul className="list-outside flex flex-col gap-4 leading-normal pt-2 text-base font-Montserrat font-normal">
                   <li>
-                    Investing in the December scheme may unlock exclusive
+                    Investing in the February scheme may unlock exclusive
                     benefits, like earning 15% returns , including priority
                     access to future and upcoming investment opportunities
                     giving you early access to the best opportunities in the
