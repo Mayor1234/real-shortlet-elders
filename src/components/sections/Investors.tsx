@@ -25,9 +25,9 @@ const Investors = () => {
                   exclusive{' '}
                   <strong className="font-merriweather">Valentine</strong>{' '}
                   Special Investment Scheme offers an unparalleled chance to
-                  earn 10% guaranteed returns on your investment. Join before
-                  January 25th. Enjoy even better rewards with 10% returns upon
-                  payout.
+                  earn 10% guaranteed returns on your investment. Early
+                  investors who join before January 25th. Enjoy even better
+                  rewards with 10% returns upon payout..
                 </p>
                 <div>
                   <p className="text-lg font-Montserrat text-gray-800 font-semibold pb-5">
