@@ -29,7 +29,7 @@ const Residency = () => {
                       </p>
                       <ul className="list-disc list-outside pb-5 ml-5 flex flex-col gap-3">
                         <li>
-                          High ROI: Earn a minimum of 5% returns on your
+                          High ROI: Earn a minimum of 7% returns on your
                           investment capital.
                         </li>
                         <li>
