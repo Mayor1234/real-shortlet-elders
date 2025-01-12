@@ -34,10 +34,7 @@ const Investors = () => {
                     Why Invest with Us?
                   </p>
                   <ul className="list-disc list-outside pb-5 ml-5 flex flex-col gap-3">
-                    <li>
-                      Payout Dates: Returns will be disbursed between March 1st
-                      and 2nd, 2025.
-                    </li>
+                    <li>Disbursement from 1st March to 10th of March 2025.</li>
                     <li>
                       Open to All Investors: Whether you’re a seasoned pro or
                       just starting your investment journey, this scheme is
