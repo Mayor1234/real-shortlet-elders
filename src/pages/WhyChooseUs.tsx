@@ -17,10 +17,10 @@ const WhyChooseUs = () => {
                 High Return Potential
                 <ul className="list-outside flex flex-col gap-4 leading-normal pt-2 text-base font-Montserrat font-normal">
                   <li>
-                    Earn attractive returns from 10-15% on your investment, with
-                    structured payouts that maximize earnings in a short period
-                    in dec. The February scheme is designed to deliver returns
-                    quickly, making it ideal for short-term gains.
+                    Earn attractive returns from 7% to 10% on your investment,
+                    with structured payouts that maximise earnings in a short
+                    period in (Dec.). The December scheme is designed to deliver
+                    returns quickly, making it ideal for short-term gains.
                   </li>
                 </ul>
               </li>
