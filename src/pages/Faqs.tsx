@@ -92,7 +92,7 @@ const Faqs = () => {
                     short-term, focused specifically on the holiday rental
                     season. Investors are expected to participate by{' '}
                     <b>November 15th</b> to target a{' '}
-                    <b>15% return by the end of February</b>.
+                    <b>10% return by the end of February</b>.
                   </p>
                 </Accordion>
               </AnimatedSection>
@@ -101,12 +101,12 @@ const Faqs = () => {
               >
                 <Accordion
                   title={
-                    'How are returns calculated and distributed? With a goal to earn 15% by the end of February when investing before November 15th, what happens if the scheme doesn’t meet this target? Is there an option to withdraw early or reinvest?'
+                    'How are returns calculated and distributed? With a goal to earn 10% by the end of February when investing before November 15th, what happens if the scheme doesn’t meet this target? Is there an option to withdraw early or reinvest?'
                   }
                 >
                   <p className="w-full  leading-relaxed pb-4 pt-2">
                     If the <b>Shortlet Elders February Investment Scheme</b>{' '}
-                    does not meet the 15% target return by the end of February,
+                    does not meet the 10% target return by the end of February,
                     there may be options available to investors based on the
                     scheme’s terms and conditions.
                   </p>
@@ -157,11 +157,11 @@ const Faqs = () => {
               >
                 <Accordion
                   title={
-                    'Is the 15% return a guaranteed amount or an estimated target? When and how will returns be distributed to investors?'
+                    'Is the 10% return a guaranteed amount or an estimated target? When and how will returns be distributed to investors?'
                   }
                 >
                   <p className="w-full leading-relaxed pb-4 pt-2">
-                    The <b>15% return</b> for the{' '}
+                    The <b>10% return</b> for the{' '}
                     <b>Shortlet Elders February Investment Scheme</b> is a
                     guaranteed amount. While the scheme is structured to achieve
                     this target through high-demand short-term rentals, returns

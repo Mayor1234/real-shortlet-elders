@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
                   <li>
                     Earn attractive returns from 7% to 10% on your investment,
                     with structured payouts that maximise earnings in a short
-                    period in (Dec.). The December scheme is designed to deliver
+                    period in (Dec.). The February scheme is designed to deliver
                     returns quickly, making it ideal for short-term gains.
                   </li>
                 </ul>
@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
                 <ul className="list-outside flex flex-col gap-4 leading-normal pt-2 text-base font-Montserrat font-normal">
                   <li>
                     Investing in the February scheme may unlock exclusive
-                    benefits, like earning 15% returns , including priority
+                    benefits, like earning 10% returns , including priority
                     access to future and upcoming investment opportunities
                     giving you early access to the best opportunities in the
                     market to staying informed and ahead, you also get free
