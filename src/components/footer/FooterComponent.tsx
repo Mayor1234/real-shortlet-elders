@@ -17,7 +17,7 @@ const Footer = () => {
               </p>
               <div className="text-base lg:text-xl max-w-sm lg:max-w-2xl">
                 <p className="pb-1">johnottoh@shortletelders.com</p>
-                <p>mullyshaven@shortletelders.com</p>
+                <p>Bgwellington@shortletelder.com</p>
               </div>
             </div>
             <div className="flex w-full gap-5 lg:gap-10 mb-5">
@@ -25,8 +25,8 @@ const Footer = () => {
                 Number:
               </p>
               <div className="text-base lg:text-xl max-w-sm lg:max-w-2xl">
-                <p className="pb-1">+2347034578122 ( Calls & Whatsapp)</p>
-                <p>+2347067826403 (Whatsapp Only)</p>
+                <p className="pb-1">+2347034578122 (Calls & Whatsapp)</p>
+                <p>07064669594 (Calls & Whatsapp)</p>
               </div>
             </div>
             <div className="self-center">
