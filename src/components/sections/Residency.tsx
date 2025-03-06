@@ -18,7 +18,7 @@ const Residency = () => {
                   <div className="mb-8">
                     <p className="text-gray-800 leading-relaxed pb-5">
                       With the increased demand for affordable, family-friendly
-                      housing in February, this scheme ensures high occupancy
+                      housing in April, this scheme ensures high occupancy
                       rates. Leveraging a network of 1,000+ agents and market
                       outreach, we aim to generate consistent returns by meeting
                       the growing demand for temporary housing.

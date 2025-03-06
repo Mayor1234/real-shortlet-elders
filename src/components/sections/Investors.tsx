@@ -69,7 +69,6 @@ const Investors = () => {
                   you—allowing you to grow your wealth while enjoying an
                   unforgettable Easter experience.
                 </p>
-
                 <em className="text-gray-800">
                   📍 Exclusive Travel Date: April 18th - 24th, 2025 <br />
                   💰 Payout Period: May 1st - 10th, 2025

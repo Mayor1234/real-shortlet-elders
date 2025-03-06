@@ -95,7 +95,7 @@ const Header = () => {
         );
 
   const handleClick = (url: string) => {
-    if (url === 'https://flutterwave.com/pay/1vd6dso7c3yn') {
+    if (url === 'https://paystack.com/pay/4aophf6eg7') {
       window.open(url, '_blank', 'noopener,noreferrer');
     } else if (url === 'home') {
       navigate('/home');

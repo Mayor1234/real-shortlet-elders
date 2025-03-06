@@ -10,7 +10,7 @@ const HeroBanner = () => {
       <div className="w-full container mx-auto">
         <div className="absolute -z-10 px-5 font-normal h-[calc(85vh+80px)] lg:h-[calc(100vh+80px)] flex justify-center gap-5 flex-col items-start lg:gap-8 lg:px-0">
           <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
-            <h1 className="max-w-md font-merriweather text-2xl font-medium uppercase leading-[40px] lg:leading-[60px] text-[#f2f2f2] lg:max-w-[750px] lg:text-4xl lg:text-start pb-5">
+            <h1 className="max-w-md font-merriweather text-2xl font-medium uppercase leading-[40px] lg:leading-[60px] text-[#f2f2f2] lg:max-w-[750px] lg:text-4xl lg:text-start pb-10">
               shortlet elders <span className="text-sec font-bold">easter</span>{' '}
               investment scheme -{' '}
               <span className="text-sec font-bold">Egypt </span>
