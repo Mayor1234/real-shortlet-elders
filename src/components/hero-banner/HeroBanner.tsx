@@ -13,9 +13,9 @@ const HeroBanner = () => {
             <h1 className="max-w-[18rem] font-merriweather text-2xl font-medium uppercase leading-[40px] lg:leading-[60px] text-[#f2f2f2] lg:max-w-[750px] lg:text-4xl lg:text-start pb-5">
               shortlet elders <span className="text-sec font-bold">easter</span>{' '}
               investment scheme -
-              <span className="text-sec font-bold">Egypt</span>
+              <span className="text-sec font-bold"> Egypt</span>
             </h1>
-            <p className="max-w-sm font-garamond leading-[28px] mb-5 text-[20px] lg:text-[28px] tracking-wide text-[#f1f5f9] lg:text-start lg:max-w-[750px] lg:leading-[35px] lg:px-0">
+            <p className="max-w-sm font-garamond leading-[28px] mb-5 text-2xl lg:text-[28px] tracking-wide text-[#f1f5f9] lg:text-start lg:max-w-[750px] lg:leading-[35px] lg:px-0">
               Earn 10% profits with Shortlet Elders Easter Special Investment
               Scheme!
             </p>
