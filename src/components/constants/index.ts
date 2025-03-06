@@ -17,7 +17,7 @@ export const menuItems = [
     title: 'contact',
   },
   {
-    url: 'https://flutterwave.com/pay/1vd6dso7c3yn',
+    url: 'https://paystack.com/pay/4aophf6eg7',
     title: 'make your payment',
   },
 ];

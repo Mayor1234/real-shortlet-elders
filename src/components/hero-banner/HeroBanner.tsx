@@ -10,13 +10,13 @@ const HeroBanner = () => {
       <div className="w-full container mx-auto">
         <div className="absolute -z-10 px-5 font-normal h-[calc(85vh+80px)] lg:h-[calc(100vh+80px)] flex justify-center gap-5 flex-col items-start lg:gap-8 lg:px-0">
           <AnimatedSection direction={{ initial_x: 0, initial_y: 50 }}>
-            <h1 className="max-w-md font-merriweather text-3xl text-center font-medium uppercase leading-[45px] lg:leading-[60px] text-[#f2f2f2] lg:max-w-[750px] lg:text-4xl lg:text-start pb-5">
+            <h1 className="max-w-md font-merriweather text-2xl font-medium uppercase leading-[40px] lg:leading-[60px] text-[#f2f2f2] lg:max-w-[750px] lg:text-4xl lg:text-start pb-5">
               shortlet elders <span className="text-sec font-bold">easter</span>{' '}
               investment scheme -{' '}
               <span className="text-sec font-bold">Egypt </span>
             </h1>
-            <p className="max-w-md font-garamond px-5 leading-[28px] text-center mb-5 text-[20px] lg:text-[28px] tracking-wide text-[#f1f5f9] lg:text-start lg:max-w-[750px] lg:leading-[35px] lg:px-0">
-              Earn 15% profits with Shortlet Elders Easter Special Investment
+            <p className="max-w-md font-garamond leading-[28px] mb-5 text-[20px] lg:text-[28px] tracking-wide text-[#f1f5f9] lg:text-start lg:max-w-[750px] lg:leading-[35px] lg:px-0">
+              Earn 10% profits with Shortlet Elders Easter Special Investment
               Scheme!
             </p>
           </AnimatedSection>

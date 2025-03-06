@@ -147,7 +147,7 @@ const Privacy = () => {
                 Contact Information
                 <ul className="list-disc list-outside flex flex-col gap-4 leading-normal pt-5 text-base font-Montserrat font-normal">
                   <li>
-                    For questions or concerns regarding our privacy practices,
+                    For questions or concerns regarding our privacy policies,
                     please contact us at{' '}
                     <a
                       href={`mailto:${'support@shortletelders.com'}`}

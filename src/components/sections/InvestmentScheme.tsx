@@ -33,7 +33,7 @@ const InvestmentScheme = () => {
                       Earn between 10% (early birds) on your capital investment
                     </p>
                     <p className="text-center pb-5">
-                      With investing as low as N100,000 Naira or its currency
+                      With investing as low as N500,000 Naira or its currency
                       equivalent, earn a top up with our short-term investment
                       scheme for this April.
                     </p>
