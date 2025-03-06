@@ -25,7 +25,7 @@ const Residency = () => {
                     </p>
                     <div>
                       <p className="text-lg font-Montserrat text-gray-800 font-semibold pb-5">
-                        Why Choose the Valentine Special Investment Scheme?
+                        Why Choose the Easter Special Investment Scheme?
                       </p>
                       <ul className="list-disc list-outside pb-5 ml-5 flex flex-col gap-3">
                         <li>
@@ -42,9 +42,7 @@ const Residency = () => {
                         </li>
                       </ul>
                     </div>
-                    <em>
-                      Let love and opportunity thrive this Valentine season!
-                    </em>
+                    <em>Let love and opportunity thrive this Easter season!</em>
                   </div>
                 </div>
               </AnimatedSection>
@@ -55,10 +53,10 @@ const Residency = () => {
               >
                 <div className="relative text-sm w-80 h-80 mt-10 lg:w-[400px] lg:h-[400px] rounded-full bg-pie-chart lg:mt-0 mx-auto">
                   <div className="absolute bottom-28 lg:bottom-40 right-10 lg:right-20 text-light transform -translate-x-1/4 font-bold text-sm">
-                    February (80%)
+                    April (80%)
                   </div>
                   <div className="absolute top-20 lg:top-24 -left-5 lg:left-2 text-light transform translate-x-1/2 font-bold text-sm">
-                    January (20%)
+                    March (20%)
                   </div>
                 </div>
               </AnimatedSection>

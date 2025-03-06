@@ -35,7 +35,7 @@ const InvestmentScheme = () => {
                     <p className="text-center pb-5">
                       With investing as low as N100,000 Naira or its currency
                       equivalent, earn a top up with our short-term investment
-                      scheme for this February.
+                      scheme for this April.
                     </p>
                     <Link
                       to="investor"
@@ -67,8 +67,8 @@ const InvestmentScheme = () => {
                     </p>
                     <p className="text-center pb-5">
                       Use your absence to make money for your home. Earn as much
-                      as 1million Naira this February by “swapping” your home
-                      for cash.
+                      as 1million Naira this April by “swapping” your home for
+                      cash.
                     </p>
                     <Link
                       to="home-owner"

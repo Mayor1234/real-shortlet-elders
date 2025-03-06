@@ -8,16 +8,18 @@ const Privacy = () => {
         <div className="max-w-5xl mx-auto px-5 lg:px-0 leading-6">
           <div className="mb-10">
             <h2 className="text-gray-900 text-3xl font-garamond font-bold pb-10 lg:text-4xl">
-              Privacy Policy for Shortlet Elders February Investment Scheme
+              Privacy Policy for Shortlet Elders Easter Investment Scheme
             </h2>
             <p className="text-xl text-gray-800 font-normal font-Montserrat leading-normal">
               At Shortlet Elders, we are committed to protecting the privacy and
-              personal information of our investors.
+              personal information of our investors. At Shortlet Elders, we are
+              committed to protecting the privacy and personal information of
+              our investors.
               <br />
               <br />
               This Privacy Policy outlines how we collect, use, store, and
               protect the information you provide when participating in our
-              February Investment Scheme.
+              Easter Investment Scheme.
             </p>
           </div>
           <div>
@@ -160,10 +162,9 @@ const Privacy = () => {
           </div>
           <div className="my-10 text-gray-900 text-lg font-Montserrat">
             <p>
-              By participating in the Shortlet Elders February Investment
-              Scheme, you agree to this Privacy Policy and the ways we handle
-              your personal information to deliver our services safely and
-              securely.
+              By participating in the Shortlet Elders Easter Investment Scheme,
+              you agree to this Privacy Policy and the ways we handle your
+              personal information to deliver our services safely and securely.
             </p>
           </div>
         </div>

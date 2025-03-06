@@ -28,8 +28,8 @@ const HomeOwners = () => {
                   </p>
                   <ul className="list-disc list-outside ml-5 flex flex-col gap-3 pb-5">
                     <li className="">
-                      Earn ₦1,000,000/month or more, depending on your home’s
-                      location, condition, and amenities.
+                      Earn EGP 40,000/ 1.1m naira per month or more, depending
+                      on your home’s location, condition, and amenities.
                     </li>
                     <li className="">
                       Suitable for various apartment types, including single
@@ -39,9 +39,9 @@ const HomeOwners = () => {
                   <em className="pt-3">
                     <strong className="font-Montserrat">
                       Targeted Locations:
-                    </strong>{' '}
-                    Orchid, Chevron, Ikate, Lekki Phase 1, Victoria Island, and
-                    Ikoyi.
+                    </strong>
+                    {'  '}
+                    Soma bay, Giza, Aswan and Luxor, Madinaty, Cairo.
                   </em>
                 </div>
                 <button

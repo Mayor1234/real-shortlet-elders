@@ -21,20 +21,22 @@ const Investors = () => {
               </h2>
               <div className="mb-8 text-gray-800 leading-relaxed">
                 <p className="pb-5">
-                  This Valentine, let love and opportunity grow together! Our
-                  exclusive{' '}
-                  <strong className="font-merriweather">Valentine</strong>{' '}
-                  Special Investment Scheme offers an unparalleled chance to
-                  earn 10% guaranteed returns on your investment. Early
-                  investors who join before January 25th. Enjoy even better
-                  rewards with 10% returns upon payout..
+                  This <strong className="font-merriweather"> Easter</strong>,
+                  whether you want to sail down the Nile on a felucca, explore
+                  ancient temples, browse the museums of Cairo, or go trekking
+                  in Sinai, let exploration and opportunity grow together! Our
+                  unique <strong className="font-merriweather"> Easter </strong>{' '}
+                  Special Investment Scheme offers an exceptional chance to earn
+                  10% guaranteed returns on your investment. Early investors who
+                  join before March 15th can enjoy even better rewards from 13%
+                  and 15% for investment above 10m upon payout.
                 </p>
                 <div>
                   <p className="text-lg font-Montserrat text-gray-800 font-semibold pb-5">
                     Why Invest with Us?
                   </p>
                   <ul className="list-disc list-outside pb-5 ml-5 flex flex-col gap-3">
-                    <li>Disbursement from 1st March to 10th of March 2025.</li>
+                    <li>Disbursement: From 1st May to 10th of May 2025.</li>
                     <li>
                       Open to All Investors: Whether you’re a seasoned pro or
                       just starting your investment journey, this scheme is
@@ -43,7 +45,7 @@ const Investors = () => {
                     <li>
                       Flexible Options: Individuals with savings they’d like to
                       “roll over” can also participate, starting with a minimum
-                      investment of ₦100,000 or its equivalent in other
+                      investment of ₦500,000 or its equivalent in other
                       currencies.
                     </li>
                   </ul>
@@ -54,10 +56,27 @@ const Investors = () => {
                   </p>
                   <InvestmentTable />
                 </div>
+                <p className="mb-5">
+                  Investors can choose from a variety of vibrant and historic
+                  locations, ensuring that their capital is employed in areas
+                  with strong growth potential and rich cultural heritage.
+                  <br />
+                  <br />
+                  Whether you’re drawn to the coastal elegance of Soma Bay, the
+                  historic grandeur of Giza, the serene beauty of Aswan and
+                  Luxor, the modern luxury of Madinaty, or the bustling city
+                  life of Cairo, there is an investment option tailored for
+                  you—allowing you to grow your wealth while enjoying an
+                  unforgettable Easter experience.
+                </p>
+                {/* <em className="text-gray-800">
+                  We prioritize clarity on your investment interests and capital
+                  strength due to the diversity of locations targeted for this
+                  scheme.
+                </em> */}
                 <em className="text-gray-800">
-                  We prioritize clarity on your investment interest and capital
-                  strength due to the diversity of the locations targeted for
-                  scheme execution.
+                  📍 Exclusive Travel Date: April 18th - 24th, 2025 <br />
+                  💰 Payout Period: May 1st - 10th, 2025
                 </em>
               </div>
               <button

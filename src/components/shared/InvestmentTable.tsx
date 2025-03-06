@@ -6,12 +6,11 @@ type DataItem = {
 };
 
 const data: DataItem[] = [
-  { key: 'Orchid', value: 'N100,000 - N1,000,000' },
-  { key: 'Chevron', value: 'N500,000 - N3,000,000' },
-  { key: 'Ikate', value: 'N1,000,000 - N3,500,000' },
-  { key: 'Lekki Phase 1', value: 'N1,000,000 - N5,000,000' },
-  { key: 'Victoria Island', value: 'N2,000,000 - N8,000,000' },
-  { key: 'Ikoyi', value: 'N5,000,000 - High Capital' },
+  { key: 'Soma Bay', value: '₦500,000 - ₦3,500,000' },
+  { key: 'Giza	', value: '₦3,500,000 - ₦5,000,000' },
+  { key: 'Aswan & Luxor', value: '₦5,000,000 - ₦8,000,000' },
+  { key: 'Madinaty', value: '₦8,000,000 - ₦10,000,000' },
+  { key: 'Cairo', value: '₦10,000,000 + (High Capital)' },
 ];
 
 const InvestmentTable: React.FC = () => {

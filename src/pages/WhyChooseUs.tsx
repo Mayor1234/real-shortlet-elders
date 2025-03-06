@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
         <div className="max-w-5xl mx-auto px-5 lg:px-0 leading-6">
           <div className="mb-10">
             <h2 className="text-gray-900 text-3xl font-garamond font-bold lg:text-4xl">
-              Why Invest in the Shortlet Elders February Scheme?
+              Why Invest in the Shortlet Elders Easter Scheme?
             </h2>
           </div>
           <div>
@@ -17,9 +17,9 @@ const WhyChooseUs = () => {
                 High Return Potential
                 <ul className="list-outside flex flex-col gap-4 leading-normal pt-2 text-base font-Montserrat font-normal">
                   <li>
-                    Earn attractive returns from 7% to 10% on your investment,
+                    Earn attractive returns from 15% to 7% on your investment,
                     with structured payouts that maximise earnings in a short
-                    period in (Dec.). The February scheme is designed to deliver
+                    period in April. The Easter scheme is designed to deliver
                     returns quickly, making it ideal for short-term gains.
                   </li>
                 </ul>
@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
                 <ul className="list-outside flex flex-col gap-4 leading-normal pt-2 text-base font-Montserrat font-normal">
                   <li>
                     Managed by a team of seasoned experts in the short-term
-                    rental market, the Shortlet Elders February Scheme is backed
+                    rental market, the Shortlet Elders Easter Scheme is backed
                     by knowledge and experience as our motto implies we are
                     elders in wisdom , integrity and experience hence we
                     carefully select and manage properties to optimize returns.
