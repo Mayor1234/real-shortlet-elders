@@ -126,7 +126,10 @@ const Faqs = () => {
                     scheme’s returns rely heavily on achieving high occupancy
                     during the Easter period. If occupancy falls short due to
                     lower demand, competition, or other factors, rental income
-                    could be lower than expected.
+                    could be lower than expected. And could expect of investors
+                    to give us more time to processed their pay out. And such
+                    unforeseen market conditions could also result in payment
+                    through batches adoption should the market stall.
                     <br />
                     <br />
                     Maintenance, repairs, or other operational costs could
