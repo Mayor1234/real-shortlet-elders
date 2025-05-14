@@ -129,7 +129,9 @@ const Faqs = () => {
                     could be lower than expected. And could expect of investors
                     to give us more time to processed their pay out. And such
                     unforeseen market conditions could also result in payment
-                    through batches adoption should the market stall.
+                    through batches adoption should the market stall. Also note
+                    that in cases like stall market, payment shall be processed
+                    within 90days.
                     <br />
                     <br />
                     Maintenance, repairs, or other operational costs could
